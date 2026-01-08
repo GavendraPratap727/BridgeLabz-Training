@@ -2,67 +2,122 @@
 
 class EmployeeUtilityImpl : IEmployee
 {
-    Employee[] empArray = new Employee[5];
-    int count = 0;
+    Employee[] fullEmpArray = new Employee[5];
+    Employee[] partEmpArray = new Employee[5];
+
+    int fullCount = 0;
+    int partCount = 0;
+
+    Random r = new Random();
 
     public void AddEmployee()
     {
-        if (count == 5)
-        {
-            Console.WriteLine("Cannot add more employees.");
-            return;
-        }
-
-        empArray[count] = new Employee();
-
         Console.Write("Enter Employee Id: ");
-        int id = int.Parse(Console.ReadLine());
+        int id = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("Enter Employee Name: ");
         string name = Console.ReadLine();
 
-        Random r = new Random();
-        int rand = r.Next(0, 2);
+        bool isPresent = r.Next(0, 2) == 1;
+        bool isFullTime = r.Next(0, 2) == 1;
 
-        bool status;
-        if (rand == 1)
-            status = true;
+        if (isFullTime)
+        {
+            if (fullCount == 5)
+            {
+                Console.WriteLine("Full time employee limit reached.");
+                return;
+            }
+
+            fullEmpArray[fullCount] = new Employee();
+            fullEmpArray[fullCount].SetEmployee(id, name, isPresent, 8);
+            fullCount++;
+
+            Console.WriteLine("Employee added as Full Time.");
+        }
         else
-            status = false;
+        {
+            if (partCount == 5)
+            {
+                Console.WriteLine("Part time employee limit reached.");
+                return;
+            }
 
-        empArray[count].SetEmployee(id, name, status);
-        count++;
+            partEmpArray[partCount] = new Employee();
+            partEmpArray[partCount].SetEmployee(id, name, isPresent, 4);
+            partCount++;
 
-        Console.WriteLine("Employee added successfully.");
+            Console.WriteLine("Employee added as Part Time.");
+        }
     }
 
     public void CheckAttendance()
     {
-        if (count == 0)
-        {
-            Console.WriteLine("No employee added yet.");
-            return;
-        }
+        Console.WriteLine("1. Full Time Employee");
+        Console.WriteLine("2. Part Time Employee");
+        Console.Write("Enter choice: ");
+        int choice = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 0; i < count; i++)
+        if (choice == 1)
         {
-            Console.WriteLine(empArray[i]);
+            if (fullCount == 0)
+            {
+                Console.WriteLine("No full time employee added.");
+                return;
+            }
+
+            for (int i = 0; i < fullCount; i++)
+                Console.WriteLine(" Employee Id : " + fullEmpArray[i].empId + " Employee Name : " + fullEmpArray[i].empName + " Attendance : " + (fullEmpArray[i].present ? "Present" : "Absent"));
+        }
+        else if (choice == 2)
+        {
+            if (partCount == 0)
+            {
+                Console.WriteLine("No part time employee added.");
+                return;
+            }
+
+            for (int i = 0; i < partCount; i++)
+                Console.WriteLine(" Employee Id : " + partEmpArray[i].empId + " Employee Name : " + partEmpArray[i].empName + " Attendance : " + (partEmpArray[i].present ? "Present" : "Absent"));
+        }
+        else
+        {
+            Console.WriteLine("Wrong choice.");
         }
     }
 
     public void PrintDailyWage()
     {
-        if (count == 0)
+        Console.WriteLine("1. Full Time Employee");
+        Console.WriteLine("2. Part Time Employee");
+        Console.Write("Enter choice: ");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        if (choice == 1)
         {
-            Console.WriteLine("No employee added yet.");
-            return;
+            if (fullCount == 0)
+            {
+                Console.WriteLine("No full time employee added.");
+                return;
+            }
+
+            for (int i = 0; i < fullCount; i++)
+                Console.WriteLine(" Employee Id : " + fullEmpArray[i].empId + " Employee Name : " + fullEmpArray[i].empName + " Daily Wage : " + fullEmpArray[i].dailyWage);
         }
-
-        for (int i = 0; i < count; i++)
+        else if (choice == 2)
         {
-            Console.WriteLine("  Employee Id  " + empArray[i].empId + "     -------   Employee Name : " + empArray[i].empName + " --------  Daily Wage : " + empArray[i].dailyWage);
+            if (partCount == 0)
+            {
+                Console.WriteLine("No part time employee added.");
+                return;
+            }
 
-
+            for (int i = 0; i < partCount; i++)
+                Console.WriteLine(" Employee Id : " + partEmpArray[i].empId + " Employee Name : " + partEmpArray[i].empName + " Daily Wage : " + partEmpArray[i].dailyWage);
+        }
+        else
+        {
+            Console.WriteLine("Wrong choice.");
         }
     }
 }

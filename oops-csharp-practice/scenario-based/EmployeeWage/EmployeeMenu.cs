@@ -17,25 +17,15 @@ class EmployeeMenu
             int choice = Convert.ToInt32(Console.ReadLine());
 
             if (choice == 1)
-            {
                 service.AddEmployee();
-            }
             else if (choice == 2)
-            {
                 service.CheckAttendance();
-            }
             else if (choice == 3)
-            {
                 service.PrintDailyWage();
-            }
             else if (choice == 4)
-            {
                 break;
-            }
             else
-            {
                 Console.WriteLine("Wrong choice.");
-            }
         }
     }
 }
