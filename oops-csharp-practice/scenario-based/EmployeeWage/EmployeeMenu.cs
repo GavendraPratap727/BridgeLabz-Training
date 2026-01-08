@@ -8,14 +8,11 @@ class EmployeeMenu
     {
         while (true)
         {
-            Console.WriteLine("\n1. Add Employee");
+            Console.WriteLine("1. Add Employee");
             Console.WriteLine("2. Check Attendance");
             Console.WriteLine("3. Print Daily Wage");
             Console.WriteLine("4. Exit");
-            Console.Write("Enter choice: ");
-
             int choice = Convert.ToInt32(Console.ReadLine());
-
             if (choice == 1)
                 service.AddEmployee();
             else if (choice == 2)
