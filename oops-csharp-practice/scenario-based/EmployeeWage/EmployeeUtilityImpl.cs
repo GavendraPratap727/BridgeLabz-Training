@@ -20,15 +20,12 @@ class EmployeeUtilityImpl : IEmployee
 
         Console.Write("Enter Employee Name: ");
         string name = Console.ReadLine();
+
         Random r = new Random();
-        int rand= r.Next(0, 2);
-        string input;
-        if (rand == 0) input = "no";
-         else  input="yes";
-       
+        int rand = r.Next(0, 2);
 
         bool status;
-        if (input == "yes")
+        if (rand == 1)
             status = true;
         else
             status = false;
@@ -50,6 +47,22 @@ class EmployeeUtilityImpl : IEmployee
         for (int i = 0; i < count; i++)
         {
             Console.WriteLine(empArray[i]);
+        }
+    }
+
+    public void PrintDailyWage()
+    {
+        if (count == 0)
+        {
+            Console.WriteLine("No employee added yet.");
+            return;
+        }
+
+        for (int i = 0; i < count; i++)
+        {
+            Console.WriteLine("  Employee Id  " + empArray[i].empId + "     -------   Employee Name : " + empArray[i].empName + " --------  Daily Wage : " + empArray[i].dailyWage);
+
+
         }
     }
 }

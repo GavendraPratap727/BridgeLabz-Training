@@ -10,7 +10,8 @@ class EmployeeMenu
         {
             Console.WriteLine("\n1. Add Employee");
             Console.WriteLine("2. Check Attendance");
-            Console.WriteLine("3. Exit");
+            Console.WriteLine("3. Print Daily Wage");
+            Console.WriteLine("4. Exit");
             Console.Write("Enter choice: ");
 
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -24,6 +25,10 @@ class EmployeeMenu
                 service.CheckAttendance();
             }
             else if (choice == 3)
+            {
+                service.PrintDailyWage();
+            }
+            else if (choice == 4)
             {
                 break;
             }
