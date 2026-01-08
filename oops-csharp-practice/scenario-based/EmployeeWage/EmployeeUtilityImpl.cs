@@ -31,6 +31,7 @@ class EmployeeUtilityImpl : IEmployee
 
             fullEmpArray[fullCount] = new Employee();
             fullEmpArray[fullCount].SetEmployee(id, name, isPresent, 8);
+            fullEmpArray[fullCount].CalculateMonthlyWage(8);
             fullCount++;
 
             Console.WriteLine("Employee added as Full Time.");
@@ -45,6 +46,7 @@ class EmployeeUtilityImpl : IEmployee
 
             partEmpArray[partCount] = new Employee();
             partEmpArray[partCount].SetEmployee(id, name, isPresent, 4);
+            partEmpArray[partCount].CalculateMonthlyWage(4);
             partCount++;
 
             Console.WriteLine("Employee added as Part Time.");
@@ -53,34 +55,22 @@ class EmployeeUtilityImpl : IEmployee
 
     public void CheckAttendance()
     {
-        Console.WriteLine("PRESS 1  Full Time Employee");
+        Console.WriteLine("PRESS 1 Full Time Employee");
         Console.WriteLine("PRESS 2 Part Time Employee");
         int choice = int.Parse(Console.ReadLine());
 
         switch (choice)
         {
             case 1:
-                if (fullCount == 0)
-                {
-                    Console.WriteLine("No full time employee added.");
-                    return;
-                }
+                if (fullCount == 0) { Console.WriteLine("No full time employee added."); return; }
                 for (int i = 0; i < fullCount; i++)
                     Console.WriteLine(" Employee Id : " + fullEmpArray[i].empId + " Employee Name : " + fullEmpArray[i].empName + " Attendance : " + (fullEmpArray[i].present ? "Present" : "Absent"));
                 break;
 
             case 2:
-                if (partCount == 0)
-                {
-                    Console.WriteLine("No part time employee added.");
-                    return;
-                }
+                if (partCount == 0) { Console.WriteLine("No part time employee added."); return; }
                 for (int i = 0; i < partCount; i++)
                     Console.WriteLine(" Employee Id : " + partEmpArray[i].empId + " Employee Name : " + partEmpArray[i].empName + " Attendance : " + (partEmpArray[i].present ? "Present" : "Absent"));
-                break;
-
-            default:
-                Console.WriteLine("Wrong choice.");
                 break;
         }
     }
@@ -94,27 +84,45 @@ class EmployeeUtilityImpl : IEmployee
         switch (choice)
         {
             case 1:
-                if (fullCount == 0)
-                {
-                    Console.WriteLine("No full time employee added.");
-                    return;
-                }
+                if (fullCount == 0) { Console.WriteLine("No full time employee added."); return; }
                 for (int i = 0; i < fullCount; i++)
-                    Console.WriteLine(" Employee Id  " + fullEmpArray[i].empId + " Employee Name  " + fullEmpArray[i].empName + " Daily Wage  " + fullEmpArray[i].dailyWage);
+                    Console.WriteLine(" Employee Id : " + fullEmpArray[i].empId + " Employee Name : " + fullEmpArray[i].empName + " Daily Wage : " + fullEmpArray[i].dailyWage);
                 break;
 
             case 2:
-                if (partCount == 0)
-                {
-                    Console.WriteLine("No part time employee added.");
-                    return;
-                }
+                if (partCount == 0) { Console.WriteLine("No part time employee added."); return; }
                 for (int i = 0; i < partCount; i++)
                     Console.WriteLine(" Employee Id : " + partEmpArray[i].empId + " Employee Name : " + partEmpArray[i].empName + " Daily Wage : " + partEmpArray[i].dailyWage);
                 break;
+        }
+    }
 
-            default:
-                Console.WriteLine("Wrong choice.");
+    public void PrintMonthlyWage()
+    {
+        Console.WriteLine("PRESS 1 Full Time Employee");
+        Console.WriteLine("PRESS 2 Part Time Employee");
+        int choice = int.Parse(Console.ReadLine());
+
+        switch (choice)
+        {
+            case 1:
+                if (fullCount == 0) {
+                    Console.WriteLine("No full time employee added.");
+                    return; 
+                }
+                for (int i = 0; i < fullCount; i++)
+                    Console.WriteLine(" Employee Id : " + fullEmpArray[i].empId + " Employee Name : " + fullEmpArray[i].empName + " Monthly Wage : " + fullEmpArray[i].monthlyWage);
+                break;
+
+            case 2:
+                if (partCount == 0) { 
+                    Console.WriteLine("No part time employee added.");
+                    return;
+                
+                }
+
+                for (int i = 0; i < partCount; i++)
+                    Console.WriteLine(" Employee Id : " + partEmpArray[i].empId + " Employee Name : " + partEmpArray[i].empName + " Monthly Wage : " + partEmpArray[i].monthlyWage);
                 break;
         }
     }
