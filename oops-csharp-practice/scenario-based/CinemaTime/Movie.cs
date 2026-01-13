@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace bridge.Opps_senario.CinemaTime
+{
+    internal class Movie
+    {
+        private string movieTitle;
+        private string movieShowTime;
+
+        public Movie(string movieTitle, string movieShowTime)
+        {
+            this.movieTitle = movieTitle;
+            this.movieShowTime = movieShowTime;
+        }
+        public string MovieTitle
+        {
+            get { return movieTitle; }
+            set { movieTitle = value; }
+        }
+        public string MovieShowTime
+        {
+            get { return movieShowTime; }
+            set { movieShowTime = value; }
+        }
+    }
+}
