@@ -61,51 +61,30 @@ This repository contains my **Core C# practice and learning work** during the
 <h1 align="center">🟢 DAY 1 – GITHUB BASICS 🐙</h1>
 <p align="center"><b>📅 Date:</b> 16/12/2025 (Tuesday)</p>
 
-**Topic:** Introduction to GitHub & Version Control  
-
-**Description:**  
-The first day focused on understanding version control systems and GitHub fundamentals.  
-The training kick-off session explained how GitHub is used in real-world development.
-
 **Key Learnings:**  
 - Training kick-off session  
-- Introduction to GitHub  
-- Creating repositories  
-- Understanding branches  
-- Solved two basic Java questions  
+- GitHub basics & repositories  
+- Branching concepts  
+- Solved two basic Java problems  
 
 <hr>
 
 <h1 align="center">🔵 DAY 2 – GITHUB DEEP DIVE 🌿</h1>
 <p align="center"><b>📅 Date:</b> 17/12/2025 (Wednesday)</p>
 
-**Topic:** Deep Dive into GitHub  
-
-**Description:**  
-This day focused on advanced GitHub concepts and repository workflows.
-
 **Key Learnings:**  
-- In-depth understanding of GitHub  
-- Working with repositories and commits  
-- Understanding GitHub workflow  
-- Solved basic programming problems  
+- GitHub workflows  
+- Commits & repository management  
+- Hands-on practice  
 
 <hr>
 
 <h1 align="center">🟣 DAY 3 – .NET & C# FUNDAMENTALS ⚙️</h1>
 <p align="center"><b>📅 Date:</b> 18/12/2025 (Thursday)</p>
 
-**Topic:** Introduction to .NET & C#  
-
-**Description:**  
-This day marked the start of backend learning with .NET and C#.  
-Focus was on CLR architecture and basic C# syntax.
-
 **Key Learnings:**  
-- Installed .NET SDK and IDE  
-- Learned CLR architecture  
-- Understood MSIL and JIT  
-- Learned C# syntax and variables  
+- .NET SDK installation  
+- CLR, MSIL, JIT  
 - Solved 10 C# problems  
 - Solved 2 LeetCode problems  
 
@@ -114,24 +93,183 @@ Focus was on CLR architecture and basic C# syntax.
 <h1 align="center">🔴 DAY 4 – C# CORE CONCEPTS 🧩</h1>
 <p align="center"><b>📅 Date:</b> 19/12/2025 (Friday)</p>
 
-**Topic:** CLR Architecture, Data Types & Operators  
+**Key Learnings:**  
+- CLR deep dive  
+- Data types & operators  
+- Level 1 & Level 2 assignments  
 
-**Description:**  
-Focused on strengthening C# fundamentals and applying them through assignments.
+<hr>
+
+<h1 align="center">🟠 DAY 5 – ACCESS MODIFIERS 🔐</h1>
+<p align="center"><b>📅 Date:</b> 20/12/2025 (Saturday)</p>
 
 **Key Learnings:**  
-- Deep understanding of CLR  
 - Access modifiers  
-- Data types & variables  
-- Operators in C#  
-- Completed Level 1 & Level 2 assignments  
+- Solved 1 program using 6 modifiers  
 - Solved 2 LeetCode problems  
 
 <hr>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dots.png" />
-</p>
+<h1 align="center">🟡 DAY 6 – CONTROL FLOWS 🔁</h1>
+<p align="center"><b>📅 Date:</b> 22/12/2025 (Monday)</p>
+
+**Key Learnings:**  
+- if, else, loops, switch  
+- Visual Studio installation  
+- Solved 2 LeetCode problems  
+
+<hr>
+
+<h1 align="center">🟢 DAY 7 – ARRAYS 📊</h1>
+<p align="center"><b>📅 Date:</b> 23/12/2025 (Tuesday)</p>
+
+**Key Learnings:**  
+- Arrays & input handling  
+- Solved assignments  
+- Solved 1 LeetCode problem  
+
+<hr>
+
+<h1 align="center">🔵 DAY 8 – METHODS 🧩</h1>
+<p align="center"><b>📅 Date:</b> 24/12/2025 (Wednesday)</p>
+
+**Key Learnings:**  
+- Method creation & calling  
+- Submitted array assignments  
+
+<hr>
+
+<h1 align="center">🟣 DAY 9 – STRINGS 🧵</h1>
+<p align="center"><b>📅 Date:</b> 26/12/2025 (Friday)</p>
+
+**Key Learnings:**  
+- String methods  
+- Snake and Ladder problem  
+- Solved 1 LeetCode problem  
+
+<hr>
+
+<h1 align="center">🔴 DAY 10 – OOPS BASICS 🧱</h1>
+<p align="center"><b>📅 Date:</b> 29/12/2025 (Monday)</p>
+
+**Key Learnings:**  
+- Classes & objects  
+- Scenario-based problems  
+- Solved 1 LeetCode problem  
+
+<hr>
+
+<h1 align="center">🟠 DAY 11 – CONSTRUCTORS 🏗️</h1>
+<p align="center"><b>📅 Date:</b> 30/12/2025 (Tuesday)</p>
+
+**Key Learnings:**  
+- Constructors  
+- Instance vs class variables  
+- Library Management System  
+
+<hr>
+
+<h1 align="center">🟡 DAY 12 – C# KEYWORDS 🗝️</h1>
+<p align="center"><b>📅 Date:</b> 31/12/2025 (Wednesday)</p>
+
+**Key Learnings:**  
+- sealed, static, this, is  
+- Bank Account Manager  
+
+<hr>
+
+<h1 align="center">🟢 DAY 13 – UML & MODELING 📐</h1>
+<p align="center"><b>📅 Date:</b> 01/01/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- Class & sequence diagrams  
+- Cafeteria Menu App  
+
+<hr>
+
+<h1 align="center">🔵 DAY 14 – INHERITANCE 🧬</h1>
+<p align="center"><b>📅 Date:</b> 02/01/2026 (Friday)</p>
+
+**Key Learnings:**  
+- Types of inheritance  
+- Mentor review  
+
+<hr>
+
+<h1 align="center">🟣 DAY 15 – WEEKLY REVISION 🔄</h1>
+<p align="center"><b>📅 Date:</b> 03/01/2026 (Saturday)</p>
+
+**Key Learnings:**  
+- Weekly revision  
+- Assignment submission  
+
+<hr>
+
+<h1 align="center">🔴 DAY 16 – OOPS APPLICATION 🏥🚗</h1>
+<p align="center"><b>📅 Date:</b> 05/01/2026 (Monday)</p>
+
+**Key Learnings:**  
+- Hospital Management System  
+- Vehicle Rental Application  
+
+<hr>
+
+<h1 align="center">🟠 DAY 17 – POLYMORPHISM 🐦</h1>
+<p align="center"><b>📅 Date:</b> 06/01/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- Bird Sanctuary System  
+- Runtime polymorphism  
+
+<hr>
+
+<h1 align="center">🟡 DAY 18 – DATA STRUCTURES 🔗</h1>
+<p align="center"><b>📅 Date:</b> 07/01/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- LinkedList  
+- Employee Wage Problem  
+
+<hr>
+
+<h1 align="center">🟢 DAY 19 – STACK, QUEUE & HASHMAP 📦</h1>
+<p align="center"><b>📅 Date:</b> 08/01/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- Stack & Queue  
+- Customized HashMap  
+- Smart Home Automation  
+
+<hr>
+
+<h1 align="center">🔵 DAY 20 – LOGIC BUILDING 🏧</h1>
+<p align="center"><b>📅 Date:</b> 09/01/2026 (Friday)</p>
+
+**Key Learnings:**  
+- SOLID principles  
+- Sorting algorithms  
+
+<hr>
+
+<h1 align="center">🟣 DAY 21 – SEARCHING & STRINGBUILDER ⚙️</h1>
+<p align="center"><b>📅 Date:</b> 12/01/2026 (Monday)</p>
+
+**Key Learnings:**  
+- Linear search  
+- Binary search  
+- StringBuilder  
+
+<hr>
+
+<h1 align="center">🔴 DAY 22 – ALGORITHM ANALYSIS ⚙️</h1>
+<p align="center"><b>📅 Date:</b> 13/01/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- Big-O notation  
+- Runtime analysis  
+- Scenario-based problems  
+
+---
 
 ## 👤 Author
 
