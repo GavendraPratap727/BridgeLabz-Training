@@ -10,10 +10,9 @@ namespace bridge.AddressBook
     {
         static void Main(string[] args)
         {
-            AddressBookImpl book = new AddressBookImpl();
             AddressBookMenu menu = new AddressBookMenu();
-
-            menu.ShowMenu(book);
+            menu.ShowMenu();
         }
     }
 }
+

@@ -6,94 +6,85 @@ using System.Threading.Tasks;
 
 namespace bridge.AddressBook
 {
-    internal class AddressBookImpl : IAddressbook
-    {
-        private List<Contacts> contacts = new List<Contacts>();
 
-        public void AddContact(Contacts contact)
+    
+        internal class AddressBookImpl : IAddressbook
         {
-            contacts.Add(contact);
-            Console.WriteLine("Contact added successfully.");
-        }
+            private Contacts[] contacts = new Contacts[50];
+            private int count = 0;
 
-        public void DisplayAllContacts()
-        {
-            if (contacts.Count == 0)
+            public void AddContact(Contacts contact)
             {
-                Console.WriteLine("No contacts available.");
-                return;
+                contacts[count++] = contact;
+                Console.WriteLine("Contact added.");
             }
 
-            foreach (Contacts c in contacts)
+            public void DisplayAllContacts()
             {
-                c.DisplayContact();
-            }
-        }
-
-        public void EditContact(string firstName)
-        {
-            bool found = false;
-
-            foreach (Contacts c in contacts)
-            {
-                if (c.FirstName.Equals(firstName))
+                if (count == 0)
                 {
-                    found = true;
+                    Console.WriteLine("No contacts found.");
+                    return;
+                }
 
-                    Console.Write("New Last Name: ");
-                    c.LastName = Console.ReadLine();
-
-                    Console.Write("New Address: ");
-                    c.Address = Console.ReadLine();
-
-                    Console.Write("New City: ");
-                    c.City = Console.ReadLine();
-
-                    Console.Write("New State: ");
-                    c.State = Console.ReadLine();
-
-                    Console.Write("New Zip: ");
-                    c.Zip = Console.ReadLine();
-
-                    Console.Write("New Phone Number: ");
-                    c.PhoneNumber = Console.ReadLine();
-
-                    Console.Write("New Email: ");
-                    c.Email = Console.ReadLine();
-
-                    Console.WriteLine("Contact updated successfully.");
-                    break;
+                for (int i = 0; i < count; i++)
+                {
+                    contacts[i].DisplayContact();
                 }
             }
 
-            if (!found)
+            public void EditContact(string firstName)
             {
+                for (int i = 0; i < count; i++)
+                {
+                    if (contacts[i].FirstName.Equals(firstName))
+                    {
+                        Console.Write("New Last Name: ");
+                        contacts[i].LastName = Console.ReadLine();
+
+                        Console.Write("New Address: ");
+                        contacts[i].Address = Console.ReadLine();
+
+                        Console.Write("New City: ");
+                        contacts[i].City = Console.ReadLine();
+
+                        Console.Write("New State: ");
+                        contacts[i].State = Console.ReadLine();
+
+                        Console.Write("New Zip: ");
+                        contacts[i].Zip = Console.ReadLine();
+
+                        Console.Write("New Phone: ");
+                        contacts[i].PhoneNumber = Console.ReadLine();
+
+                        Console.Write("New Email: ");
+                        contacts[i].Email = Console.ReadLine();
+
+                        Console.WriteLine("Contact updated.");
+                        return;
+                    }
+                }
                 Console.WriteLine("Contact not found.");
             }
-        }
 
-        public void DeleteContact(string firstName)
-        {
-            Contacts deleteContact = null;
-
-            foreach (Contacts c in contacts)
+            public void DeleteContact(string firstName)
             {
-                if (c.FirstName.Equals(firstName))
+                for (int i = 0; i < count; i++)
                 {
-                    deleteContact = c;
-                    break;
+                    if (contacts[i].FirstName.Equals(firstName))
+                    {
+                        for (int j = i; j < count - 1; j++)
+                        {
+                            contacts[j] = contacts[j + 1];
+                        }
+                        count--;
+                        Console.WriteLine("Contact deleted.");
+                        return;
+                    }
                 }
-            }
-
-            if (deleteContact != null)
-            {
-                contacts.Remove(deleteContact);
-                Console.WriteLine("Contact deleted successfully.");
-            }
-            else
-            {
                 Console.WriteLine("Contact not found.");
             }
         }
     }
-}
+
+
