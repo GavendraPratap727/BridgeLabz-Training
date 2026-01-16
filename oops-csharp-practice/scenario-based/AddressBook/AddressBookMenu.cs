@@ -15,15 +15,19 @@ namespace bridge.AddressBook
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Display Contacts");
                 Console.WriteLine("3. Edit Contact");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Delete Contact");
+                Console.WriteLine("5. Exit");
+
                 int choice = int.Parse(Console.ReadLine());
 
                 if (choice == 1)
                 {
                     Console.Write("First Name: ");
                     string fname = Console.ReadLine();
+
                     Console.Write("Last Name: ");
                     string lname = Console.ReadLine();
+
                     Console.Write("Address: ");
                     string address = Console.ReadLine();
 
@@ -55,7 +59,16 @@ namespace bridge.AddressBook
                     string name = Console.ReadLine();
                     book.EditContact(name);
                 }
-                else if (choice == 4) return;
+                else if (choice == 4)
+                {
+                    Console.Write("Enter First Name to delete: ");
+                    string name = Console.ReadLine();
+                    book.DeleteContact(name);
+                }
+                else if (choice == 5)
+                {
+                    return;
+                }
                 else
                 {
                     Console.WriteLine("Invalid choice");

@@ -80,5 +80,35 @@ namespace bridge.AddressBook
                 Console.WriteLine("Contact not found.");
             }
         }
+
+        // ✅ VERSION 4 FEATURE
+        public void DeleteContact(string firstName)
+        {
+            bool found = false;
+
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].FirstName.Equals(firstName))
+                {
+                    found = true;
+
+                    for (int j = i; j < count - 1; j++)
+                    {
+                        contacts[j] = contacts[j + 1];
+                    }
+
+                    contacts[count - 1] = null;
+                    count--;
+
+                    Console.WriteLine("Contact deleted successfully.");
+                    break;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("Contact not found.");
+            }
+        }
     }
 }

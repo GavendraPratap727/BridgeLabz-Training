@@ -12,5 +12,6 @@ namespace bridge.AddressBook
         void AddContact(Contacts contact);
         void DisplayAllContacts();
         void EditContact(string firstName);
+        void DeleteContact(string firstName);
     }
 }
