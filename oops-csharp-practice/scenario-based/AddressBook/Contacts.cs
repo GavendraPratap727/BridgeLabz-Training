@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace bridge.AddressBook
 {
-
     internal class Contacts
     {
         public string FirstName;
@@ -33,6 +27,23 @@ namespace bridge.AddressBook
             Email = email;
         }
 
+        // UC-7: Override Equals for duplicate check
+        public override bool Equals(object obj)
+        {
+            if (obj == null || !(obj is Contacts))
+                return false;
+
+            Contacts other = (Contacts)obj;
+
+            return this.FirstName.Equals(other.FirstName)
+                && this.LastName.Equals(other.LastName);
+        }
+
+        public override int GetHashCode()
+        {
+            return (FirstName + LastName).GetHashCode();
+        }
+
         public void DisplayContact()
         {
             Console.WriteLine("First Name   : " + FirstName);
@@ -47,6 +58,3 @@ namespace bridge.AddressBook
         }
     }
 }
-
-
-

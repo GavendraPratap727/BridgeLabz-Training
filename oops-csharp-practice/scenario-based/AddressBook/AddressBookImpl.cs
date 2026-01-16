@@ -1,90 +1,95 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace bridge.AddressBook
 {
+    internal class AddressBookImpl : IAddressbook
+    {
+        private List<Contacts> contacts = new List<Contacts>();
 
-    
-        internal class AddressBookImpl : IAddressbook
+        public void AddContact(Contacts contact)
         {
-            private Contacts[] contacts = new Contacts[50];
-            private int count = 0;
-
-            public void AddContact(Contacts contact)
+            // UC-7: Duplicate check using collection method
+            if (contacts.Contains(contact))
             {
-                contacts[count++] = contact;
-                Console.WriteLine("Contact added.");
+                Console.WriteLine("Duplicate contact found. Entry not allowed.");
+                return;
             }
 
-            public void DisplayAllContacts()
+            contacts.Add(contact);
+            Console.WriteLine("Contact added successfully.");
+        }
+
+        public void DisplayAllContacts()
+        {
+            if (contacts.Count == 0)
             {
-                if (count == 0)
+                Console.WriteLine("No contacts found.");
+                return;
+            }
+
+            foreach (Contacts c in contacts)
+            {
+                c.DisplayContact();
+            }
+        }
+
+        public void EditContact(string firstName)
+        {
+            foreach (Contacts c in contacts)
+            {
+                if (c.FirstName.Equals(firstName))
                 {
-                    Console.WriteLine("No contacts found.");
+                    Console.Write("New Last Name: ");
+                    c.LastName = Console.ReadLine();
+
+                    Console.Write("New Address: ");
+                    c.Address = Console.ReadLine();
+
+                    Console.Write("New City: ");
+                    c.City = Console.ReadLine();
+
+                    Console.Write("New State: ");
+                    c.State = Console.ReadLine();
+
+                    Console.Write("New Zip: ");
+                    c.Zip = Console.ReadLine();
+
+                    Console.Write("New Phone: ");
+                    c.PhoneNumber = Console.ReadLine();
+
+                    Console.Write("New Email: ");
+                    c.Email = Console.ReadLine();
+
+                    Console.WriteLine("Contact updated.");
                     return;
                 }
+            }
+            Console.WriteLine("Contact not found.");
+        }
 
-                for (int i = 0; i < count; i++)
+        public void DeleteContact(string firstName)
+        {
+            Contacts removeContact = null;
+
+            foreach (Contacts c in contacts)
+            {
+                if (c.FirstName.Equals(firstName))
                 {
-                    contacts[i].DisplayContact();
+                    removeContact = c;
+                    break;
                 }
             }
 
-            public void EditContact(string firstName)
+            if (removeContact != null)
             {
-                for (int i = 0; i < count; i++)
-                {
-                    if (contacts[i].FirstName.Equals(firstName))
-                    {
-                        Console.Write("New Last Name: ");
-                        contacts[i].LastName = Console.ReadLine();
-
-                        Console.Write("New Address: ");
-                        contacts[i].Address = Console.ReadLine();
-
-                        Console.Write("New City: ");
-                        contacts[i].City = Console.ReadLine();
-
-                        Console.Write("New State: ");
-                        contacts[i].State = Console.ReadLine();
-
-                        Console.Write("New Zip: ");
-                        contacts[i].Zip = Console.ReadLine();
-
-                        Console.Write("New Phone: ");
-                        contacts[i].PhoneNumber = Console.ReadLine();
-
-                        Console.Write("New Email: ");
-                        contacts[i].Email = Console.ReadLine();
-
-                        Console.WriteLine("Contact updated.");
-                        return;
-                    }
-                }
-                Console.WriteLine("Contact not found.");
+                contacts.Remove(removeContact);
+                Console.WriteLine("Contact deleted.");
             }
-
-            public void DeleteContact(string firstName)
+            else
             {
-                for (int i = 0; i < count; i++)
-                {
-                    if (contacts[i].FirstName.Equals(firstName))
-                    {
-                        for (int j = i; j < count - 1; j++)
-                        {
-                            contacts[j] = contacts[j + 1];
-                        }
-                        count--;
-                        Console.WriteLine("Contact deleted.");
-                        return;
-                    }
-                }
                 Console.WriteLine("Contact not found.");
             }
         }
     }
-
-
+}
