@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace bridge.AddressBook
 {
@@ -32,7 +33,7 @@ namespace bridge.AddressBook
 
             for (int i = 0; i < count; i++)
             {
-                contacts[i].DisplayContact();
+                Console.WriteLine(contacts[i]); // ToString()
             }
         }
 
@@ -86,6 +87,26 @@ namespace bridge.AddressBook
                 }
             }
             Console.WriteLine("Contact not found.");
+        }
+
+        // ✅ UC-11 SORT USING COLLECTION
+        public void SortByName()
+        {
+            List<Contacts> tempList = new List<Contacts>();
+
+            for (int i = 0; i < count; i++)
+            {
+                tempList.Add(contacts[i]);
+            }
+
+            tempList.Sort((a, b) => a.FirstName.CompareTo(b.FirstName));
+
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                contacts[i] = tempList[i];
+            }
+
+            Console.WriteLine("Contacts sorted alphabetically by name.");
         }
 
         public Contacts[] GetContacts()

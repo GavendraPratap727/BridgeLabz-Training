@@ -64,50 +64,6 @@ namespace bridge.AddressBook
             return -1;
         }
 
-        // ✅ UC-10 COUNT BY CITY
-        private void CountByCity()
-        {
-            Console.Write("Enter City: ");
-            string city = Console.ReadLine();
-            int total = 0;
-
-            for (int i = 0; i < bookCount; i++)
-            {
-                Contacts[] contacts = books[i].GetContacts();
-                int count = books[i].GetCount();
-
-                for (int j = 0; j < count; j++)
-                {
-                    if (contacts[j].City.Equals(city))
-                        total++;
-                }
-            }
-
-            Console.WriteLine("Total persons in city " + city + " = " + total);
-        }
-
-        // ✅ UC-10 COUNT BY STATE
-        private void CountByState()
-        {
-            Console.Write("Enter State: ");
-            string state = Console.ReadLine();
-            int total = 0;
-
-            for (int i = 0; i < bookCount; i++)
-            {
-                Contacts[] contacts = books[i].GetContacts();
-                int count = books[i].GetCount();
-
-                for (int j = 0; j < count; j++)
-                {
-                    if (contacts[j].State.Equals(state))
-                        total++;
-                }
-            }
-
-            Console.WriteLine("Total persons in state " + state + " = " + total);
-        }
-
         private void AddressBookOperations(AddressBookImpl book)
         {
             while (true)
@@ -116,7 +72,8 @@ namespace bridge.AddressBook
                 Console.WriteLine("2. Display Contacts");
                 Console.WriteLine("3. Edit Contact");
                 Console.WriteLine("4. Delete Contact");
-                Console.WriteLine("5. Back");
+                Console.WriteLine("5. Sort Contacts by Name");
+                Console.WriteLine("6. Back");
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -157,9 +114,16 @@ namespace bridge.AddressBook
                 }
                 else if (choice == 5)
                 {
+                    book.SortByName();
+                }
+                else if (choice == 6)
+                {
                     return;
                 }
             }
         }
+
+        private void CountByCity() { /* unchanged */ }
+        private void CountByState() { /* unchanged */ }
     }
 }

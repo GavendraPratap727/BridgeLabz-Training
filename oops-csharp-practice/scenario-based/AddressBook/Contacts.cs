@@ -27,7 +27,6 @@ namespace bridge.AddressBook
             Email = email;
         }
 
-        // UC-7 Duplicate Check
         public override bool Equals(object obj)
         {
             if (obj == null || !(obj is Contacts))
@@ -43,17 +42,12 @@ namespace bridge.AddressBook
             return (FirstName + LastName).GetHashCode();
         }
 
-        public void DisplayContact()
+        public override string ToString()
         {
-            Console.WriteLine("First Name : " + FirstName);
-            Console.WriteLine("Last Name  : " + LastName);
-            Console.WriteLine("Address    : " + Address);
-            Console.WriteLine("City       : " + City);
-            Console.WriteLine("State      : " + State);
-            Console.WriteLine("Zip        : " + Zip);
-            Console.WriteLine("Phone      : " + PhoneNumber);
-            Console.WriteLine("Email      : " + Email);
-            Console.WriteLine("--------------------------------");
+            return FirstName + " " + LastName +
+                   " | City: " + City +
+                   " | State: " + State +
+                   " | Phone: " + PhoneNumber;
         }
     }
 }

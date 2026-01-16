@@ -9,5 +9,7 @@
 
         Contacts[] GetContacts();
         int GetCount();
+
+        void SortByName();
     }
 }
