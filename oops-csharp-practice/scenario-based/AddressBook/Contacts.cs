@@ -9,27 +9,27 @@ namespace bridge.AddressBook
 {
     internal class Contacts
     {
-        public String FirstName { get; set; }
-        public String LastName { get; set; }
-        public String Address { get; set; }
-        public String City { get; set; }
-        public String State { get; set; }
-        public String Zip { get; set; }
-        public String PhoneNumber { get; set; }
-        public String EMail { get; set; }
-        public Contacts(string firstName, string lastName, string address, string city, string state, string zip, string phoneNumber, string eMail)
+        public string FirstName;
+        public string LastName;
+        public string Address;
+        public string City;
+        public string State;
+        public string Zip;
+        public string PhoneNumber;
+        public string Email;
+
+        public Contacts(string firstName, string lastName, string address, string city, string state, string zip, string phoneNumber, string email)
         {
-            this.FirstName = firstName;
-            this.LastName = lastName;
-            this.Address = address;
-            this.City = city;
-            this.State = state;
-            this.Zip = zip;
-            this.PhoneNumber = phoneNumber;
-            this.EMail = eMail;
+            FirstName = firstName;
+            LastName = lastName;
+            Address = address;
+            City = city;
+            State = state;
+            Zip = zip;
+            PhoneNumber = phoneNumber;
+            Email = email;
         }
-        
-            public  void DisplayContact()
+        public void DisplayContact()
         {
             Console.WriteLine("First Name   : " + FirstName);
             Console.WriteLine("Last Name    : " + LastName);
@@ -38,9 +38,10 @@ namespace bridge.AddressBook
             Console.WriteLine("State        : " + State);
             Console.WriteLine("Zip          : " + Zip);
             Console.WriteLine("Phone Number : " + PhoneNumber);
-            Console.WriteLine("Email        : " + EMail);
+            Console.WriteLine("Email        : " + Email);
+            Console.WriteLine("--------------------------------");
         }
     }
-    }
+}
 
 

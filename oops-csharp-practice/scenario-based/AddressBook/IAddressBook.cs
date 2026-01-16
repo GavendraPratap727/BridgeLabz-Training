@@ -8,5 +8,7 @@ namespace bridge.AddressBook
 {
     internal interface IAddressbook
     {
+        void AddContact(Contacts contact);
+        void DisplayAllContacts();
     }
 }

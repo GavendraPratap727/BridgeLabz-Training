@@ -8,10 +8,11 @@ namespace bridge.AddressBook
 {
     internal class Start
     {
-        static void Main(String[]args)
+        static void Main(string[] args)
         {
-            Contacts c = new Contacts("love", "singh", "AMerplai", "mathura", "up", "202001", "7900220727", "pratapgavedra01@gmail.com");
-            c.DisplayContact();
+            AddressBookImpl book = new AddressBookImpl();
+            AddressBookMenu menu = new AddressBookMenu();
+            menu.ShowMenu(book);
         }
     }
 }
