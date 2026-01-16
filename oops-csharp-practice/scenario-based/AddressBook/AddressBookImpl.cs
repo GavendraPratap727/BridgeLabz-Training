@@ -9,7 +9,6 @@ namespace bridge.AddressBook
 
         public void AddContact(Contacts contact)
         {
-            // UC-7: Duplicate check using collection method
             if (contacts.Contains(contact))
             {
                 Console.WriteLine("Duplicate contact found. Entry not allowed.");
@@ -89,6 +88,29 @@ namespace bridge.AddressBook
             else
             {
                 Console.WriteLine("Contact not found.");
+            }
+        }
+
+        // ✅ UC-8 METHODS
+        public void SearchByCity(string city)
+        {
+            foreach (Contacts c in contacts)
+            {
+                if (c.City.Equals(city))
+                {
+                    c.DisplayContact();
+                }
+            }
+        }
+
+        public void SearchByState(string state)
+        {
+            foreach (Contacts c in contacts)
+            {
+                if (c.State.Equals(state))
+                {
+                    c.DisplayContact();
+                }
             }
         }
     }

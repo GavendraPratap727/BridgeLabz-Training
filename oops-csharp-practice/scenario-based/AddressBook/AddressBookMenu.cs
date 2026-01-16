@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System;
 
 namespace bridge.AddressBook
 {
     internal class AddressBookMenu
     {
-        private string[] bookNames = new string[10];
-        private AddressBookImpl[] books = new AddressBookImpl[10];
-        private int bookCount = 0;
+        private Dictionary<string, AddressBookImpl> books =
+            new Dictionary<string, AddressBookImpl>();
 
         public void ShowMenu()
         {
@@ -20,7 +14,8 @@ namespace bridge.AddressBook
             {
                 Console.WriteLine("\n1. Add Address Book");
                 Console.WriteLine("2. Open Address Book");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Search Person");
+                Console.WriteLine("4. Exit");
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -29,54 +24,67 @@ namespace bridge.AddressBook
                     Console.Write("Enter Address Book Name: ");
                     string name = Console.ReadLine();
 
-                    if (FindBook(name) != -1)
+                    if (!books.ContainsKey(name))
                     {
-                        Console.WriteLine("Address Book already exists.");
+                        books[name] = new AddressBookImpl();
+                        Console.WriteLine("Address Book created.");
                     }
                     else
                     {
-                        bookNames[bookCount] = name;
-                        books[bookCount] = new AddressBookImpl();
-                        bookCount++;
-                        Console.WriteLine("Address Book created.");
+                        Console.WriteLine("Address Book already exists.");
                     }
                 }
                 else if (choice == 2)
                 {
                     Console.Write("Enter Address Book Name: ");
                     string name = Console.ReadLine();
-                    int index = FindBook(name);
 
-                    if (index == -1)
+                    if (books.ContainsKey(name))
                     {
-                        Console.WriteLine("Address Book not found.");
+                        AddressBookOperations(books[name]);
                     }
                     else
                     {
-                        AddressBookOperations(books[index]);
+                        Console.WriteLine("Address Book not found.");
                     }
                 }
                 else if (choice == 3)
                 {
-                    return;
+                    SearchAcrossAllBooks();
                 }
-                else
+                else if (choice == 4)
                 {
-                    Console.WriteLine("Invalid choice.");
+                    return;
                 }
             }
         }
 
-        private int FindBook(string name)
+        private void SearchAcrossAllBooks()
         {
-            for (int i = 0; i < bookCount; i++)
+            Console.WriteLine("1. Search by City");
+            Console.WriteLine("2. Search by State");
+            int choice = int.Parse(Console.ReadLine());
+
+            if (choice == 1)
             {
-                if (bookNames[i].Equals(name))
+                Console.Write("Enter City: ");
+                string city = Console.ReadLine();
+
+                foreach (var book in books.Values)
                 {
-                    return i;
+                    book.SearchByCity(city);
                 }
             }
-            return -1;
+            else if (choice == 2)
+            {
+                Console.Write("Enter State: ");
+                string state = Console.ReadLine();
+
+                foreach (var book in books.Values)
+                {
+                    book.SearchByState(state);
+                }
+            }
         }
 
         private void AddressBookOperations(AddressBookImpl book)
@@ -134,4 +142,3 @@ namespace bridge.AddressBook
         }
     }
 }
-
