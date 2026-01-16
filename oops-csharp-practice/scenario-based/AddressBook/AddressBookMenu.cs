@@ -14,8 +14,8 @@ namespace bridge.AddressBook
             {
                 Console.WriteLine("\n1. Add Address Book");
                 Console.WriteLine("2. Open Address Book");
-                Console.WriteLine("3. View Persons by City");
-                Console.WriteLine("4. View Persons by State");
+                Console.WriteLine("3. Count Persons by City");
+                Console.WriteLine("4. Count Persons by State");
                 Console.WriteLine("5. Exit");
 
                 int choice = int.Parse(Console.ReadLine());
@@ -41,11 +41,11 @@ namespace bridge.AddressBook
                 }
                 else if (choice == 3)
                 {
-                    ViewByCity();
+                    CountByCity();
                 }
                 else if (choice == 4)
                 {
-                    ViewByState();
+                    CountByState();
                 }
                 else if (choice == 5)
                 {
@@ -64,11 +64,12 @@ namespace bridge.AddressBook
             return -1;
         }
 
-        // UC-9 City View
-        private void ViewByCity()
+        // ✅ UC-10 COUNT BY CITY
+        private void CountByCity()
         {
             Console.Write("Enter City: ");
             string city = Console.ReadLine();
+            int total = 0;
 
             for (int i = 0; i < bookCount; i++)
             {
@@ -78,18 +79,19 @@ namespace bridge.AddressBook
                 for (int j = 0; j < count; j++)
                 {
                     if (contacts[j].City.Equals(city))
-                    {
-                        contacts[j].DisplayContact();
-                    }
+                        total++;
                 }
             }
+
+            Console.WriteLine("Total persons in city " + city + " = " + total);
         }
 
-        // UC-9 State View
-        private void ViewByState()
+        // ✅ UC-10 COUNT BY STATE
+        private void CountByState()
         {
             Console.Write("Enter State: ");
             string state = Console.ReadLine();
+            int total = 0;
 
             for (int i = 0; i < bookCount; i++)
             {
@@ -99,11 +101,11 @@ namespace bridge.AddressBook
                 for (int j = 0; j < count; j++)
                 {
                     if (contacts[j].State.Equals(state))
-                    {
-                        contacts[j].DisplayContact();
-                    }
+                        total++;
                 }
             }
+
+            Console.WriteLine("Total persons in state " + state + " = " + total);
         }
 
         private void AddressBookOperations(AddressBookImpl book)
