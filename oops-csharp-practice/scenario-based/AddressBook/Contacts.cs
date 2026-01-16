@@ -18,7 +18,9 @@ namespace bridge.AddressBook
         public string PhoneNumber;
         public string Email;
 
-        public Contacts(string firstName, string lastName, string address, string city, string state, string zip, string phoneNumber, string email)
+        public Contacts(string firstName, string lastName, string address,
+                        string city, string state, string zip,
+                        string phoneNumber, string email)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -29,6 +31,7 @@ namespace bridge.AddressBook
             PhoneNumber = phoneNumber;
             Email = email;
         }
+
         public void DisplayContact()
         {
             Console.WriteLine("First Name   : " + FirstName);
@@ -43,5 +46,6 @@ namespace bridge.AddressBook
         }
     }
 }
+
 
 

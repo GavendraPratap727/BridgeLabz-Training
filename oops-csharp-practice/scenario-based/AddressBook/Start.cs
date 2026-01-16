@@ -12,6 +12,7 @@ namespace bridge.AddressBook
         {
             AddressBookImpl book = new AddressBookImpl();
             AddressBookMenu menu = new AddressBookMenu();
+
             menu.ShowMenu(book);
         }
     }
