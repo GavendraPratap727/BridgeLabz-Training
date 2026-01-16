@@ -46,7 +46,10 @@ namespace bridge.AddressBook
                     Console.Write("Email: ");
                     string email = Console.ReadLine();
 
-                    Contacts c = new Contacts(fname, lname, address, city, state, zip, phone, email);
+                    Contacts c = new Contacts(
+                        fname, lname, address, city, state, zip, phone, email
+                    );
+
                     book.AddContact(c);
                 }
                 else if (choice == 2)

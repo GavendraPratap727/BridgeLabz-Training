@@ -8,34 +8,25 @@ namespace bridge.AddressBook
 {
     internal class AddressBookImpl : IAddressbook
     {
-        private Contacts[] contacts = new Contacts[10];
-        private int count = 0;
+        private List<Contacts> contacts = new List<Contacts>();
 
         public void AddContact(Contacts contact)
         {
-            if (count < contacts.Length)
-            {
-                contacts[count] = contact;
-                count++;
-                Console.WriteLine("Contact added successfully.");
-            }
-            else
-            {
-                Console.WriteLine("Address Book is full.");
-            }
+            contacts.Add(contact);
+            Console.WriteLine("Contact added successfully.");
         }
 
         public void DisplayAllContacts()
         {
-            if (count == 0)
+            if (contacts.Count == 0)
             {
-                Console.WriteLine("No contacts found.");
+                Console.WriteLine("No contacts available.");
                 return;
             }
 
-            for (int i = 0; i < count; i++)
+            foreach (Contacts c in contacts)
             {
-                contacts[i].DisplayContact();
+                c.DisplayContact();
             }
         }
 
@@ -43,32 +34,32 @@ namespace bridge.AddressBook
         {
             bool found = false;
 
-            for (int i = 0; i < count; i++)
+            foreach (Contacts c in contacts)
             {
-                if (contacts[i].FirstName.Equals(firstName))
+                if (c.FirstName.Equals(firstName))
                 {
                     found = true;
 
                     Console.Write("New Last Name: ");
-                    contacts[i].LastName = Console.ReadLine();
+                    c.LastName = Console.ReadLine();
 
                     Console.Write("New Address: ");
-                    contacts[i].Address = Console.ReadLine();
+                    c.Address = Console.ReadLine();
 
                     Console.Write("New City: ");
-                    contacts[i].City = Console.ReadLine();
+                    c.City = Console.ReadLine();
 
                     Console.Write("New State: ");
-                    contacts[i].State = Console.ReadLine();
+                    c.State = Console.ReadLine();
 
                     Console.Write("New Zip: ");
-                    contacts[i].Zip = Console.ReadLine();
+                    c.Zip = Console.ReadLine();
 
                     Console.Write("New Phone Number: ");
-                    contacts[i].PhoneNumber = Console.ReadLine();
+                    c.PhoneNumber = Console.ReadLine();
 
                     Console.Write("New Email: ");
-                    contacts[i].Email = Console.ReadLine();
+                    c.Email = Console.ReadLine();
 
                     Console.WriteLine("Contact updated successfully.");
                     break;
@@ -81,31 +72,25 @@ namespace bridge.AddressBook
             }
         }
 
-        // ✅ VERSION 4 FEATURE
         public void DeleteContact(string firstName)
         {
-            bool found = false;
+            Contacts deleteContact = null;
 
-            for (int i = 0; i < count; i++)
+            foreach (Contacts c in contacts)
             {
-                if (contacts[i].FirstName.Equals(firstName))
+                if (c.FirstName.Equals(firstName))
                 {
-                    found = true;
-
-                    for (int j = i; j < count - 1; j++)
-                    {
-                        contacts[j] = contacts[j + 1];
-                    }
-
-                    contacts[count - 1] = null;
-                    count--;
-
-                    Console.WriteLine("Contact deleted successfully.");
+                    deleteContact = c;
                     break;
                 }
             }
 
-            if (!found)
+            if (deleteContact != null)
+            {
+                contacts.Remove(deleteContact);
+                Console.WriteLine("Contact deleted successfully.");
+            }
+            else
             {
                 Console.WriteLine("Contact not found.");
             }

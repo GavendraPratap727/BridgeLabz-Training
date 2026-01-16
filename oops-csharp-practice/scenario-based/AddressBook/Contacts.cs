@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace bridge.AddressBook
 {
+
     internal class Contacts
     {
         public string FirstName;
