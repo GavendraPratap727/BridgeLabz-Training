@@ -1,64 +1,67 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace bridge.AddressBook
 {
     internal class AddressBookImpl : IAddressbook
     {
-        private List<Contacts> contacts = new List<Contacts>();
+        private Contacts[] contacts = new Contacts[50];
+        private int count = 0;
 
         public void AddContact(Contacts contact)
         {
-            if (contacts.Contains(contact))
+            for (int i = 0; i < count; i++)
             {
-                Console.WriteLine("Duplicate contact found. Entry not allowed.");
-                return;
+                if (contacts[i].Equals(contact))
+                {
+                    Console.WriteLine("Duplicate contact. Not added.");
+                    return;
+                }
             }
 
-            contacts.Add(contact);
+            contacts[count++] = contact;
             Console.WriteLine("Contact added successfully.");
         }
 
         public void DisplayAllContacts()
         {
-            if (contacts.Count == 0)
+            if (count == 0)
             {
                 Console.WriteLine("No contacts found.");
                 return;
             }
 
-            foreach (Contacts c in contacts)
+            for (int i = 0; i < count; i++)
             {
-                c.DisplayContact();
+                contacts[i].DisplayContact();
             }
         }
 
         public void EditContact(string firstName)
         {
-            foreach (Contacts c in contacts)
+            for (int i = 0; i < count; i++)
             {
-                if (c.FirstName.Equals(firstName))
+                if (contacts[i].FirstName.Equals(firstName))
                 {
                     Console.Write("New Last Name: ");
-                    c.LastName = Console.ReadLine();
+                    contacts[i].LastName = Console.ReadLine();
 
                     Console.Write("New Address: ");
-                    c.Address = Console.ReadLine();
+                    contacts[i].Address = Console.ReadLine();
 
                     Console.Write("New City: ");
-                    c.City = Console.ReadLine();
+                    contacts[i].City = Console.ReadLine();
 
                     Console.Write("New State: ");
-                    c.State = Console.ReadLine();
+                    contacts[i].State = Console.ReadLine();
 
                     Console.Write("New Zip: ");
-                    c.Zip = Console.ReadLine();
+                    contacts[i].Zip = Console.ReadLine();
 
                     Console.Write("New Phone: ");
-                    c.PhoneNumber = Console.ReadLine();
+                    contacts[i].PhoneNumber = Console.ReadLine();
 
                     Console.Write("New Email: ");
-                    c.Email = Console.ReadLine();
+                    contacts[i].Email = Console.ReadLine();
 
                     Console.WriteLine("Contact updated.");
                     return;
@@ -69,49 +72,30 @@ namespace bridge.AddressBook
 
         public void DeleteContact(string firstName)
         {
-            Contacts removeContact = null;
-
-            foreach (Contacts c in contacts)
+            for (int i = 0; i < count; i++)
             {
-                if (c.FirstName.Equals(firstName))
+                if (contacts[i].FirstName.Equals(firstName))
                 {
-                    removeContact = c;
-                    break;
+                    for (int j = i; j < count - 1; j++)
+                    {
+                        contacts[j] = contacts[j + 1];
+                    }
+                    count--;
+                    Console.WriteLine("Contact deleted.");
+                    return;
                 }
             }
-
-            if (removeContact != null)
-            {
-                contacts.Remove(removeContact);
-                Console.WriteLine("Contact deleted.");
-            }
-            else
-            {
-                Console.WriteLine("Contact not found.");
-            }
+            Console.WriteLine("Contact not found.");
         }
 
-        // ✅ UC-8 METHODS
-        public void SearchByCity(string city)
+        public Contacts[] GetContacts()
         {
-            foreach (Contacts c in contacts)
-            {
-                if (c.City.Equals(city))
-                {
-                    c.DisplayContact();
-                }
-            }
+            return contacts;
         }
 
-        public void SearchByState(string state)
+        public int GetCount()
         {
-            foreach (Contacts c in contacts)
-            {
-                if (c.State.Equals(state))
-                {
-                    c.DisplayContact();
-                }
-            }
+            return count;
         }
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace bridge.AddressBook
+﻿namespace bridge.AddressBook
 {
     internal interface IAddressbook
     {
@@ -12,7 +6,8 @@ namespace bridge.AddressBook
         void DisplayAllContacts();
         void EditContact(string firstName);
         void DeleteContact(string firstName);
-        void SearchByCity(string city);
-        void SearchByState(string state);
+
+        Contacts[] GetContacts();
+        int GetCount();
     }
 }

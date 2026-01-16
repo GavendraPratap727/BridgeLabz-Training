@@ -27,16 +27,15 @@ namespace bridge.AddressBook
             Email = email;
         }
 
-        // UC-7: Override Equals for duplicate check
+        // UC-7 Duplicate Check
         public override bool Equals(object obj)
         {
             if (obj == null || !(obj is Contacts))
                 return false;
 
             Contacts other = (Contacts)obj;
-
-            return this.FirstName.Equals(other.FirstName)
-                && this.LastName.Equals(other.LastName);
+            return FirstName.Equals(other.FirstName)
+                && LastName.Equals(other.LastName);
         }
 
         public override int GetHashCode()
@@ -46,14 +45,14 @@ namespace bridge.AddressBook
 
         public void DisplayContact()
         {
-            Console.WriteLine("First Name   : " + FirstName);
-            Console.WriteLine("Last Name    : " + LastName);
-            Console.WriteLine("Address      : " + Address);
-            Console.WriteLine("City         : " + City);
-            Console.WriteLine("State        : " + State);
-            Console.WriteLine("Zip          : " + Zip);
-            Console.WriteLine("Phone Number : " + PhoneNumber);
-            Console.WriteLine("Email        : " + Email);
+            Console.WriteLine("First Name : " + FirstName);
+            Console.WriteLine("Last Name  : " + LastName);
+            Console.WriteLine("Address    : " + Address);
+            Console.WriteLine("City       : " + City);
+            Console.WriteLine("State      : " + State);
+            Console.WriteLine("Zip        : " + Zip);
+            Console.WriteLine("Phone      : " + PhoneNumber);
+            Console.WriteLine("Email      : " + Email);
             Console.WriteLine("--------------------------------");
         }
     }
