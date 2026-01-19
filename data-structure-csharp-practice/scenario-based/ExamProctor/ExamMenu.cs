@@ -8,10 +8,11 @@ namespace bridge.DSA_Senario.ExamProctor
 {
     class ExamMenu
     {
-        ExamUtility exam = new ExamUtility();
+        ExamUtility exam = new ExamUtility(); //making objext 
 
         public void Start()
         {
+           
             int choice = 0;
 
             while (choice != 5)

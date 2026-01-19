@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace bridge.DSA_Senario.ExamProctor
 {
+    //custom hash map using 2 arrays 
     class CustomHashMap
     {
-        private int[] keys;
-        private string[] values;
+        private int[] keys; //to store key 
+        private string[] values;  // to store value
         private int count;
 
         public CustomHashMap(int size)
@@ -49,7 +50,7 @@ namespace bridge.DSA_Senario.ExamProctor
         {
             return count;
         }
-
+       
         public int GetKeyAt(int index)
         {
             return keys[index];
