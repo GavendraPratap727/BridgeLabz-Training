@@ -598,15 +598,7 @@ This repository contains my **Core C# practice and learning work** during the
 - Dictionary & Regex problems  
 - Power Skills session  
 
-<hr>
 
-<h1 align="center">🟣 DAY 55 – QUANTITY MEASUREMENT APP ✅</h1>
-<p align="center"><b>📅 Date:</b> 21/02/2026 (Saturday)</p>
-
-**Key Learnings:**  
-- UC3 implementation  
-- Equality comparison  
-- Unit testing  
 
 ---
 
