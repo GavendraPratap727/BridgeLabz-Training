@@ -267,7 +267,346 @@ This repository contains my **Core C# practice and learning work** during the
 **Key Learnings:**  
 - Big-O notation  
 - Runtime analysis  
-- Scenario-based problems  
+- Scenario-based problems
+
+  <hr>
+
+  <hr>
+
+<h1 align="center">🟢 DAY 23 – EVALUATION & PROBLEM SOLVING 📝</h1>
+<p align="center"><b>📅 Date:</b> 14/01/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- Theory-based evaluation (OOP + DSA)  
+- LeetCode practice  
+- Design thinking  
+- Started Address Book planning  
+
+<hr>
+
+<h1 align="center">🔵 DAY 24 – LINKED LIST & STACK APPLICATIONS 🔗</h1>
+<p align="center"><b>📅 Date:</b> 15/01/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- Doubly Linked List  
+- Stack implementation  
+- Scenario-based system modeling  
+- Browser-like navigation logic  
+- Address Book refinement  
+
+<hr>
+
+<h1 align="center">🟣 DAY 25 – CIRCULAR LINKED LIST & QUEUE 🚦</h1>
+<p align="center"><b>📅 Date:</b> 16/01/2026 (Friday)</p>
+
+**Key Learnings:**  
+- Circular Linked List  
+- Queue-based systems  
+- Traffic flow management logic  
+- Dynamic insertion & deletion  
+
+<hr>
+
+<h1 align="center">🔴 DAY 26 – SORTING ALGORITHMS 📊</h1>
+<p align="center"><b>📅 Date:</b> 17/01/2026 (Saturday)</p>
+
+**Key Learnings:**  
+- Bubble Sort  
+- Quick Sort  
+- Algorithm selection based on performance  
+- Ranking-based systems  
+
+<hr>
+
+<h1 align="center">🟠 DAY 27 – GENERICS & SCENARIO SYSTEMS 🧩</h1>
+<p align="center"><b>📅 Date:</b> 19/01/2026 (Monday)</p>
+
+**Key Learnings:**  
+- Singly Linked List  
+- Stack  
+- Custom HashMap  
+- Generics in C#  
+- Type safety & reusability  
+
+<hr>
+
+<h1 align="center">🟡 DAY 28 – COLLECTIONS FRAMEWORK 📦</h1>
+<p align="center"><b>📅 Date:</b> 20/01/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- List, Stack, Queue, Dictionary  
+- Choosing correct collection  
+- Modular coding using functions  
+
+<hr>
+
+<h1 align="center">🟢 DAY 29 – QUEUE SYSTEMS & MERGE SORT 🏪</h1>
+<p align="center"><b>📅 Date:</b> 21/01/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- Queue-based systems  
+- Merge Sort  
+- Ranking & result generation  
+- Data processing concepts  
+
+<hr>
+
+<h1 align="center">🔵 DAY 30 – EXCEPTION HANDLING ⚠️</h1>
+<p align="center"><b>📅 Date:</b> 22/01/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- try-catch-finally  
+- Custom Exceptions  
+- Exception hierarchy  
+- Circular Linked List usage  
+
+<hr>
+
+<h1 align="center">🟣 DAY 31 – REGEX & NUNIT TESTING 🧪</h1>
+<p align="center"><b>📅 Date:</b> 23/01/2026 (Friday)</p>
+
+**Key Learnings:**  
+- Regular Expressions  
+- Pattern validation  
+- NUnit testing framework  
+- Validation-based unit tests  
+
+<hr>
+
+<h1 align="center">🔴 DAY 32 – MSTEST & UNIT TESTING 🧫</h1>
+<p align="center"><b>📅 Date:</b> 24/01/2026 (Saturday)</p>
+
+**Key Learnings:**  
+- MSTest framework  
+- NUnit vs MSTest  
+- Exception testing  
+- Professional testing practices  
+
+<hr>
+
+<h1 align="center">🟠 DAY 33 – ANNOTATIONS & REFLECTION 🧬</h1>
+<p align="center"><b>📅 Date:</b> 26/01/2026 (Monday)</p>
+
+**Key Learnings:**  
+- Attributes (Annotations)  
+- Custom attributes  
+- Reflection API  
+- Runtime metadata inspection  
+
+<hr>
+
+<h1 align="center">🟡 DAY 34 – CODE QUALITY & SONARQUBE 🧹</h1>
+<p align="center"><b>📅 Date:</b> 27/01/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- SonarQube concepts  
+- Code smells  
+- Refactoring practices  
+- Improving exception handling  
+
+<hr>
+
+<h1 align="center">🟢 DAY 35 – CSV FILE HANDLING 📄</h1>
+<p align="center"><b>📅 Date:</b> 28/01/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- CSV read & write  
+- File parsing  
+- Exception handling in file operations  
+
+<hr>
+
+<h1 align="center">🔵 DAY 36 – JSON HANDLING 📁</h1>
+<p align="center"><b>📅 Date:</b> 29/01/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- JSON concepts  
+- Read & write JSON  
+- Data parsing  
+- Regex revision  
+
+<hr>
+
+<h1 align="center">🟣 DAY 37 – JSON PRACTICE & REVISION 🔁</h1>
+<p align="center"><b>📅 Date:</b> 30/01/2026 (Friday)</p>
+
+**Key Learnings:**  
+- JSON problem solving  
+- Revision of Collections, Regex & Exceptions  
+
+<hr>
+
+<h1 align="center">🔴 DAY 38 – ADDRESS BOOK COMPLETION 📒</h1>
+<p align="center"><b>📅 Date:</b> 31/01/2026 (Saturday)</p>
+
+**Key Learnings:**  
+- Address Book use cases  
+- Applying all learned concepts  
+- Feature completion  
+
+<hr>
+
+<h1 align="center">🟠 DAY 39 – DESIGN PRINCIPLES 🧠</h1>
+<p align="center"><b>📅 Date:</b> 02/02/2026 (Monday)</p>
+
+**Key Learnings:**  
+- KISS principle  
+- DRY principle  
+- DIY approach  
+- Clean code practices  
+
+<hr>
+
+<h1 align="center">🟡 DAY 40 – MULTITHREADING BASICS 🔀</h1>
+<p align="center"><b>📅 Date:</b> 03/02/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- Thread lifecycle  
+- Multithreading concepts  
+- Concurrency basics  
+
+<hr>
+
+<h1 align="center">🟢 DAY 41 – DATABASE SETUP & SQL 🗄️</h1>
+<p align="center"><b>📅 Date:</b> 04/02/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- MS SQL Server setup  
+- DBMS basics  
+
+<hr>
+
+<h1 align="center">🔵 DAY 42 – SQL JOINS & DB INTEGRATION 🔗</h1>
+<p align="center"><b>📅 Date:</b> 05/02/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- INNER, LEFT, RIGHT JOIN  
+- C# + SQL integration  
+- HealthClinic application start  
+
+<hr>
+
+<h1 align="center">🟣 DAY 43 – STORED PROCEDURES 🧾</h1>
+<p align="center"><b>📅 Date:</b> 06/02/2026 (Friday)</p>
+
+**Key Learnings:**  
+- Stored Procedures  
+- Query optimization  
+- Updating application use cases  
+
+<hr>
+
+<h1 align="center">🔴 DAY 44 – SQL TRIGGERS ⚙️</h1>
+<p align="center"><b>📅 Date:</b> 09/02/2026 (Monday)</p>
+
+**Key Learnings:**  
+- SQL Triggers  
+- Database event handling  
+- Application–DB integration  
+
+<hr>
+
+<h1 align="center">🟠 DAY 45 – MOCK PREPARATION 🧪</h1>
+<p align="center"><b>📅 Date:</b> 10/02/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- Logical problem solving  
+- Coding practice  
+- Mock assessment preparation  
+
+<hr>
+
+<h1 align="center">🟡 DAY 46 – DB CONNECTIVITY VIA C# 🔌</h1>
+<p align="center"><b>📅 Date:</b> 11/02/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- SQL Connection  
+- SQL Command execution  
+- Insert & retrieve operations  
+
+<hr>
+
+<h1 align="center">🟢 DAY 47 – REGEX REVISION 🔤</h1>
+<p align="center"><b>📅 Date:</b> 12/02/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- Regex revision  
+- Scenario-based validation  
+
+<hr>
+
+<h1 align="center">🔵 DAY 48 – VALIDATION SYSTEMS 📧</h1>
+<p align="center"><b>📅 Date:</b> 13/02/2026 (Friday)</p>
+
+**Key Learnings:**  
+- Email validation system  
+- Professional communication concepts  
+
+<hr>
+
+<h1 align="center">🟣 DAY 49 – CONCEPT REVISION 🔁</h1>
+<p align="center"><b>📅 Date:</b> 14/02/2026 (Saturday)</p>
+
+**Key Learnings:**  
+- Revision of DSA, Regex, SQL, Testing  
+- Interview readiness  
+
+<hr>
+
+<h1 align="center">🔴 DAY 50 – BANKING SYSTEM & TESTING 🏦</h1>
+<p align="center"><b>📅 Date:</b> 16/02/2026 (Monday)</p>
+
+**Key Learnings:**  
+- Banking transaction system  
+- MSTest practice  
+
+<hr>
+
+<h1 align="center">🟠 DAY 51 – ASP.NET CORE BASICS 🌐</h1>
+<p align="center"><b>📅 Date:</b> 17/02/2026 (Tuesday)</p>
+
+**Key Learnings:**  
+- ASP.NET Core introduction  
+- Project structure  
+
+<hr>
+
+<h1 align="center">🟡 DAY 52 – PROJECT INITIALIZATION 📁</h1>
+<p align="center"><b>📅 Date:</b> 18/02/2026 (Wednesday)</p>
+
+**Key Learnings:**  
+- Mock assessment  
+- Quantity Measurement App (UC1)  
+- Documentation  
+
+<hr>
+
+<h1 align="center">🟢 DAY 53 – PROJECT PROGRESS 🚀</h1>
+<p align="center"><b>📅 Date:</b> 19/02/2026 (Thursday)</p>
+
+**Key Learnings:**  
+- Mentor discussion  
+- Incremental UC implementation  
+
+<hr>
+
+<h1 align="center">🔵 DAY 54 – ASP.NET PRACTICE ⚙️</h1>
+<p align="center"><b>📅 Date:</b> 20/02/2026 (Friday)</p>
+
+**Key Learnings:**  
+- ASP.NET practice  
+- Dictionary & Regex problems  
+- Power Skills session  
+
+<hr>
+
+<h1 align="center">🟣 DAY 55 – QUANTITY MEASUREMENT APP ✅</h1>
+<p align="center"><b>📅 Date:</b> 21/02/2026 (Saturday)</p>
+
+**Key Learnings:**  
+- UC3 implementation  
+- Equality comparison  
+- Unit testing  
 
 ---
 
