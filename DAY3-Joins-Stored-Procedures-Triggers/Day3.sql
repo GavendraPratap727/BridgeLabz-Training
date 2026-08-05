@@ -221,16 +221,7 @@ select * from AUditLog;
 
 
 --store procedure
-CREATE PROCEDURE sp_InsertDoctor
-    @Name VARCHAR(50),
-    @Expertise VARCHAR(100),
-    @Phone VARCHAR(15),
-    @RoomID INT = NULL
-AS
-BEGIN
-    INSERT INTO Doctor (Name, Expertise, Phone, RoomID)
-    VALUES (@Name, @Expertise, @Phone, @RoomID);
-END
+
 
 
 CREATE PROCEDURE sp_InsertPatient
@@ -247,18 +238,33 @@ INSERT INTO Patient (Name, DOB, Gender, Phone, PDescription, Address, DoctorID)
 VALUES (@Name, @DOB, @Gender, @Phone, @PDescription, @Address, @DoctorID);
 END
 
-
-CREATE PROCEDURE sp_InsertAppointment
-@DoctorID INT,
-@PatientID INT,
-@AppointmentDate DATETIME,
- @Status VARCHAR(20) = 'Scheduled',
-@Reason VARCHAR(255)
+CREATE PROCEDURE sp_UpdatePatient
+    @PatientID INT,
+    @Name VARCHAR(50),
+    @DOB DATE,
+    @Gender CHAR(1),
+    @Phone VARCHAR(15),
+    @PDescription VARCHAR(500),
+    @Address VARCHAR(200),
+    @DoctorID INT
 AS
 BEGIN
-    INSERT INTO Appointment (DoctorID, PatientID, AppointmentDate, Status, Reason)
-    VALUES (@DoctorID, @PatientID, @AppointmentDate, @Status, @Reason);
-END
+    UPDATE Patient
+    SET
+        Name = @Name,
+        DOB = @DOB,
+        Gender = @Gender,
+        Phone = @Phone,
+        PDescription = @PDescription,
+        Address = @Address,
+        DoctorID = @DoctorID
+    WHERE PatientID = @PatientID;
+END;
 
-
- 
+CREATE PROCEDURE sp_DeletePatient
+    @PatientID INT
+AS
+BEGIN
+    DELETE FROM Patient
+    WHERE PatientID = @PatientID;
+END;
