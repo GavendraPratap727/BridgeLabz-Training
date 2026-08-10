@@ -1206,11 +1206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\healthCLinicADO\\healthCLinicADO.csproj",
+      "projectUniqueName": "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\healthCLinicADO.csproj",
       "projectName": "healthCLinicADO",
-      "projectPath": "E:\\healthCLinicADO\\healthCLinicADO.csproj",
+      "projectPath": "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\healthCLinicADO.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\healthCLinicADO\\obj\\",
+      "outputPath": "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\healthCLinicADO.csproj": {}
+    "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj": {}
   },
   "projects": {
-    "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\healthCLinicADO.csproj": {
+    "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\healthCLinicADO.csproj",
-        "projectName": "healthCLinicADO",
-        "projectPath": "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\healthCLinicADO.csproj",
+        "projectUniqueName": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj",
+        "projectName": "ContactsApp.Core",
+        "projectPath": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\BridgeLabz-Training\\DAY4-ADO-DOTNET\\healthCLinicADO\\obj\\",
+        "outputPath": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
