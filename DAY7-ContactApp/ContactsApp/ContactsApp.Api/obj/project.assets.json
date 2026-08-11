@@ -372,11 +372,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Api\\ContactsApp.Api.csproj",
+      "projectUniqueName": "E:\\BridgeLabz-Training\\DAY7-ContactApp\\ContactsApp\\ContactsApp.Api\\ContactsApp.Api.csproj",
       "projectName": "ContactsApp.Api",
-      "projectPath": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Api\\ContactsApp.Api.csproj",
+      "projectPath": "E:\\BridgeLabz-Training\\DAY7-ContactApp\\ContactsApp\\ContactsApp.Api\\ContactsApp.Api.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Api\\obj\\",
+      "outputPath": "E:\\BridgeLabz-Training\\DAY7-ContactApp\\ContactsApp\\ContactsApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -391,8 +391,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj": {
-              "projectPath": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj"
+            "E:\\BridgeLabz-Training\\DAY7-ContactApp\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj": {
+              "projectPath": "E:\\BridgeLabz-Training\\DAY7-ContactApp\\ContactsApp\\ContactsApp.Core\\ContactsApp.Core.csproj"
             }
           }
         }

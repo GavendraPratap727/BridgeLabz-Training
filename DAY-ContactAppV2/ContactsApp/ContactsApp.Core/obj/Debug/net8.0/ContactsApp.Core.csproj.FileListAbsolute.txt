@@ -1,0 +1,23 @@
+E:\New folder (3)\ContactsApp\ContactsApp.Core\bin\Debug\net8.0\ContactsApp.Core.deps.json
+E:\New folder (3)\ContactsApp\ContactsApp.Core\bin\Debug\net8.0\ContactsApp.Core.dll
+E:\New folder (3)\ContactsApp\ContactsApp.Core\bin\Debug\net8.0\ContactsApp.Core.pdb
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.AssemblyInfoInputs.cache
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.AssemblyInfo.cs
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.csproj.CoreCompileInputs.cache
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.dll
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\refint\ContactsApp.Core.dll
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.pdb
+E:\New folder (3)\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ref\ContactsApp.Core.dll
+E:\kk\ContactsApp\ContactsApp.Core\bin\Debug\net8.0\ContactsApp.Core.deps.json
+E:\kk\ContactsApp\ContactsApp.Core\bin\Debug\net8.0\ContactsApp.Core.dll
+E:\kk\ContactsApp\ContactsApp.Core\bin\Debug\net8.0\ContactsApp.Core.pdb
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.csproj.AssemblyReference.cache
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.AssemblyInfoInputs.cache
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.AssemblyInfo.cs
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.csproj.CoreCompileInputs.cache
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.dll
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\refint\ContactsApp.Core.dll
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ContactsApp.Core.pdb
+E:\kk\ContactsApp\ContactsApp.Core\obj\Debug\net8.0\ref\ContactsApp.Core.dll

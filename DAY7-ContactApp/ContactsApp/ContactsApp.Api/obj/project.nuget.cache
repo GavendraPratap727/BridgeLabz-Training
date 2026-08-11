@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kkhEDwipS4k=",
+  "dgSpecHash": "sPK7JCSB/Go=",
   "success": true,
-  "projectFilePath": "E:\\New folder (3)\\ContactsApp\\ContactsApp.Api\\ContactsApp.Api.csproj",
+  "projectFilePath": "E:\\BridgeLabz-Training\\DAY7-ContactApp\\ContactsApp\\ContactsApp.Api\\ContactsApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
