@@ -1,0 +1,17 @@
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Repository.deps.json
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Repository.dll
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Repository.pdb
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Context.dll
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Entities.dll
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Entities.pdb
+E:\kk\FundooNotes\FundooNotes.Repository\bin\Debug\net8.0\FundooNotes.Context.pdb
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.csproj.AssemblyReference.cache
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.AssemblyInfoInputs.cache
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.AssemblyInfo.cs
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.csproj.CoreCompileInputs.cache
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNo.34BFE6D0.Up2Date
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.dll
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\refint\FundooNotes.Repository.dll
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\FundooNotes.Repository.pdb
+E:\kk\FundooNotes\FundooNotes.Repository\obj\Debug\net8.0\ref\FundooNotes.Repository.dll
