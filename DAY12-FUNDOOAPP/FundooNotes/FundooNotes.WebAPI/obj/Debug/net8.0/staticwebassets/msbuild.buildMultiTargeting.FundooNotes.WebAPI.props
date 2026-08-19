@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\FundooNotes.WebAPI.props" />
-</Project>
