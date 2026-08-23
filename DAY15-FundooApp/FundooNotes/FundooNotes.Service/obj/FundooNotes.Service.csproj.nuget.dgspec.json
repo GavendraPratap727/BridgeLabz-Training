@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj",
+        "projectName": "FundooNotes.Models",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj",
+        "projectName": "FundooNotes.Repository",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj",
+        "projectName": "FundooNotes.Service",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
+              },
+              "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY15-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.22.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
