@@ -1,0 +1,16 @@
+2026-08-24 15:50:36.9213|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
+2026-08-24 21:18:24.7010|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
+2026-08-24 21:19:29.4684|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2026-08-24 21:19:42.0586|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
