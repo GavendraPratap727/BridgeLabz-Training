@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FundooNotes.Gateway.props" />
+</Project>

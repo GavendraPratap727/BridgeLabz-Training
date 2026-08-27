@@ -1,0 +1,12 @@
+E:\kk\FundooNotes\FundooNotes.Shared\bin\Debug\net8.0\FundooNotes.Shared.deps.json
+E:\kk\FundooNotes\FundooNotes.Shared\bin\Debug\net8.0\FundooNotes.Shared.dll
+E:\kk\FundooNotes\FundooNotes.Shared\bin\Debug\net8.0\FundooNotes.Shared.pdb
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.csproj.AssemblyReference.cache
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.AssemblyInfoInputs.cache
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.AssemblyInfo.cs
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.csproj.CoreCompileInputs.cache
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.dll
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\refint\FundooNotes.Shared.dll
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\FundooNotes.Shared.pdb
+E:\kk\FundooNotes\FundooNotes.Shared\obj\Debug\net8.0\ref\FundooNotes.Shared.dll

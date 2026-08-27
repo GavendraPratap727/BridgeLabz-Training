@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YwP0i/5SaC6qzC/pvDzpYuSusJAj+DFPVXbEyiAh0kA=",
+  "Source": "FundooNotes.Gateway",
+  "BasePath": "_content/FundooNotes.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
