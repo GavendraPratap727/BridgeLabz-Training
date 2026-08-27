@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XIuEJ6lBkYni9DRDhioJ5+XG25X/5XX2PcSOdnfzZAA=",
+  "Source": "FundooNotes.IdentityService",
+  "BasePath": "_content/FundooNotes.IdentityService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

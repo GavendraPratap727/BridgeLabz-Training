@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Fundoo.Api.props" />
-</Project>
