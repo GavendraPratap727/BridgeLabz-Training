@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FundooNotes.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c47f38080c95f28ac8eecfb1c17495a530ea69eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FundooNotes.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FundooNotes.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

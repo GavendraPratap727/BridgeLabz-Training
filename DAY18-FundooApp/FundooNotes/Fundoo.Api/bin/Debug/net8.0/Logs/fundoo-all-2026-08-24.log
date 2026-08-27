@@ -1,0 +1,958 @@
+2026-08-24 15:50:36.9213|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 15:50:37.0755|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
+2026-08-24 21:18:24.7010|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 21:18:24.8394|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
+2026-08-24 21:19:29.4684|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2026-08-24 21:19:42.0586|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 21:19:42.1376|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
+2026-08-24 21:38:35.3953|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 21:38:35.5000|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 21:38:35.5000|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 21:38:35.5000|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 21:38:35.5000|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\BridgeLabz-Training\DAY16-FundooApp\FundooNotes\Fundoo.Api 
+2026-08-24 21:38:45.6572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/ - - - 
+2026-08-24 21:38:45.7242|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2026-08-24 21:38:46.7468|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/ - 404 0 - 1089.4221ms 
+2026-08-24 21:38:46.7468|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5198/, Response status code: 404 
+2026-08-24 21:38:53.4981|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/index.html - - - 
+2026-08-24 21:38:53.5502|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/index.html - 200 - text/html;charset=utf-8 52.0766ms 
+2026-08-24 21:38:54.2343|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - - - 
+2026-08-24 21:38:54.3273|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 93.0522ms 
+2026-08-24 22:22:16.0042|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 22:22:16.0346|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Starting RabbitMQ Reminder Consumer on queue 'fundoo_reminder_queue' at localhost:5672... 
+2026-08-24 22:22:16.1235|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 22:22:16.1235|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 22:22:16.1235|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 22:22:16.1235|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api 
+2026-08-24 22:22:16.1741|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|RabbitMQ Reminder Consumer successfully connected and listening to 'fundoo_reminder_queue' 
+2026-08-24 22:22:35.4508|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger - - - 
+2026-08-24 22:22:35.5154|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger - 301 0 - 65.9458ms 
+2026-08-24 22:22:35.5154|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/index.html - - - 
+2026-08-24 22:22:35.5901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/index.html - 200 - text/html;charset=utf-8 69.9357ms 
+2026-08-24 22:22:35.5901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/swagger-ui.css - - - 
+2026-08-24 22:22:35.5901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/swagger-ui-bundle.js - - - 
+2026-08-24 22:22:35.5901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/swagger-ui-standalone-preset.js - - - 
+2026-08-24 22:22:35.6269|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2026-08-24 22:22:35.6269|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2026-08-24 22:22:35.6269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/swagger-ui.css - 200 152034 text/css 30.7100ms 
+2026-08-24 22:22:35.6269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 29.9135ms 
+2026-08-24 22:22:35.6269|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2026-08-24 22:22:35.6269|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 33.3831ms 
+2026-08-24 22:22:35.7935|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - - - 
+2026-08-24 22:22:35.8192|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/favicon-32x32.png - - - 
+2026-08-24 22:22:35.8192|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2026-08-24 22:22:35.8192|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/favicon-32x32.png - 200 628 image/png 1.3081ms 
+2026-08-24 22:22:35.8945|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 100.9253ms 
+2026-08-24 22:23:08.9833|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/register - application/json 108 
+2026-08-24 22:23:08.9833|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2026-08-24 22:23:08.9833|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:23:09.0373|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Register (Fundoo.Api)' 
+2026-08-24 22:23:09.0673|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(FundooNotes.Models.DTOs.UserRegistrationDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:23:10.0288|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (54ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:23:10.1604|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [FirstName], [LastName], [PasswordHash], [PasswordSalt], [UpdatedAt])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6); 
+2026-08-24 22:23:10.1831|INFO|Fundoo.Api.Controllers.UserController|User registered successfully: gg@gmail.com 
+2026-08-24 22:23:10.1831|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:23:10.2032|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Register (Fundoo.Api) in 1131.0674ms 
+2026-08-24 22:23:10.2032|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Register (Fundoo.Api)' 
+2026-08-24 22:23:10.2032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/register - 200 - application/json;+charset=utf-8 1227.2029ms 
+2026-08-24 22:23:35.1443|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/login - application/json 57 
+2026-08-24 22:23:35.1443|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:23:35.1443|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:23:35.1528|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FundooNotes.Models.DTOs.UserLoginDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:23:35.1776|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:23:35.2046|INFO|Fundoo.Api.Controllers.UserController|User logged in: gg@gmail.com 
+2026-08-24 22:23:35.2046|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:23:35.2046|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Login (Fundoo.Api) in 54.078ms 
+2026-08-24 22:23:35.2046|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:23:35.2046|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/login - 200 - application/json;+charset=utf-8 63.4872ms 
+2026-08-24 22:24:11.1292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/create - application/json 189 
+2026-08-24 22:24:11.1292|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:24:11.1796|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.CreateNote (Fundoo.Api)' 
+2026-08-24 22:24:11.1831|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreateNote", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateNote(FundooNotes.Models.DTOs.CreateNoteDto) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:24:11.2938|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 20), @p2='?' (DbType = DateTime2), @p3='?' (Size = 500), @p4='?' (DbType = DateTime2), @p5='?' (Size = 200), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime2), @p8='?' (Size = 100), @p9='?' (DbType = Boolean), @p10='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notes] ([Archive], [Backgroundcolor], [Created], [Description], [Edited], [Image], [Pin], [Reminder], [Title], [Trash], [UserId])
+OUTPUT INSERTED.[NoteId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10); 
+2026-08-24 22:24:11.3357|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:24:11.3621|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 1 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:24:11.3716|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":1,"UserId":2,"UserEmail":"gg@gmail.com","Title":"First","Description":"THis is my frist note","ReminderTime":"2026-08-24T16:53:48.541Z"} 
+2026-08-24 22:24:11.3913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[FundooNotes.Models.NotesEntity, FundooNotes.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:24:11.3913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.CreateNote (Fundoo.Api) in 214.0901ms 
+2026-08-24 22:24:11.3913|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.CreateNote (Fundoo.Api)' 
+2026-08-24 22:24:11.3913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/create - 200 - application/json;+charset=utf-8 268.5360ms 
+2026-08-24 22:24:13.5115|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:24:19.7260|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/api/Notes/all - - - 
+2026-08-24 22:24:19.7301|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.GetAllNotes (Fundoo.Api)' 
+2026-08-24 22:24:19.7301|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllNotes", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotes() on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:24:19.7669|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[UserId] = @__userId_0 AND [n].[Trash] = CAST(0 AS bit)
+ORDER BY [n].[Edited] DESC 
+2026-08-24 22:24:19.7669|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[FundooNotes.Models.NotesEntity, FundooNotes.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:24:19.7669|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.GetAllNotes (Fundoo.Api) in 39.2075ms 
+2026-08-24 22:24:19.7669|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.GetAllNotes (Fundoo.Api)' 
+2026-08-24 22:24:19.7669|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/api/Notes/all - 200 - application/json;+charset=utf-8 48.6877ms 
+2026-08-24 22:24:37.8914|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/api/Notes/pinned - - - 
+2026-08-24 22:24:37.8914|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.GetPinnedNotes (Fundoo.Api)' 
+2026-08-24 22:24:37.8914|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPinnedNotes", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPinnedNotes() on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:24:37.9229|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[UserId] = @__userId_0 AND [n].[Pin] = CAST(1 AS bit) AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:24:37.9229|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[FundooNotes.Models.NotesEntity, FundooNotes.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:24:37.9229|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.GetPinnedNotes (Fundoo.Api) in 27.2542ms 
+2026-08-24 22:24:37.9229|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.GetPinnedNotes (Fundoo.Api)' 
+2026-08-24 22:24:37.9229|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/api/Notes/pinned - 200 - application/json;+charset=utf-8 32.8075ms 
+2026-08-24 22:25:42.8226|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5198/api/Notes/reminder/1 - application/json 40 
+2026-08-24 22:25:42.8226|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:25:42.8226|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api)' 
+2026-08-24 22:25:42.8226|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SetReminder", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SetReminder(Int64, FundooNotes.Models.DTOs.ReminderDto) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:25:42.8575|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:25:42.8575|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Notes] SET [Edited] = @p0, [Reminder] = @p1
+OUTPUT 1
+WHERE [NoteId] = @p2; 
+2026-08-24 22:25:42.8688|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:25:42.8688|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:25:42.8688|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 1 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:25:42.8688|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":1,"UserId":2,"UserEmail":"gg@gmail.com","Title":"First","Description":"THis is my frist note","ReminderTime":"2026-08-25T15:00:00Z"} 
+2026-08-24 22:25:42.8688|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:25:42.8865|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api) in 47.8825ms 
+2026-08-24 22:25:42.8865|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api)' 
+2026-08-24 22:25:42.8865|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5198/api/Notes/reminder/1 - 200 - application/json;+charset=utf-8 64.2943ms 
+2026-08-24 22:25:45.0909|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:27:27.3846|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/index.html - - - 
+2026-08-24 22:27:27.3846|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/index.html - 200 - text/html;charset=utf-8 1.4430ms 
+2026-08-24 22:27:27.5510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - - - 
+2026-08-24 22:27:27.5713|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 20.2427ms 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/register - application/json 121 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Register (Fundoo.Api)' 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(FundooNotes.Models.DTOs.UserRegistrationDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:28:13.6190|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:28:13.6190|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [FirstName], [LastName], [PasswordHash], [PasswordSalt], [UpdatedAt])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6); 
+2026-08-24 22:28:13.6190|INFO|Fundoo.Api.Controllers.UserController|User registered successfully: 01pratapgavendra@gmail.com 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Register (Fundoo.Api) in 8.086ms 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Register (Fundoo.Api)' 
+2026-08-24 22:28:13.6190|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/register - 200 - application/json;+charset=utf-8 10.2136ms 
+2026-08-24 22:28:37.3182|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/login - application/json 71 
+2026-08-24 22:28:37.3182|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:28:37.3182|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:28:37.3182|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FundooNotes.Models.DTOs.UserLoginDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:28:37.3217|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:28:37.3217|INFO|Fundoo.Api.Controllers.UserController|User logged in: 01pratapgavendra@gmail.com 
+2026-08-24 22:28:37.3217|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:28:37.3217|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Login (Fundoo.Api) in 3.7583ms 
+2026-08-24 22:28:37.3217|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:28:37.3217|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/login - 200 - application/json;+charset=utf-8 5.5269ms 
+2026-08-24 22:29:05.8844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/api/Notes/all - - - 
+2026-08-24 22:29:05.8859|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.GetAllNotes (Fundoo.Api)' 
+2026-08-24 22:29:05.8859|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllNotes", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotes() on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:29:05.8859|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[UserId] = @__userId_0 AND [n].[Trash] = CAST(0 AS bit)
+ORDER BY [n].[Edited] DESC 
+2026-08-24 22:29:05.8859|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[FundooNotes.Models.NotesEntity, FundooNotes.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:29:05.8859|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.GetAllNotes (Fundoo.Api) in 2.9322ms 
+2026-08-24 22:29:05.8859|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.GetAllNotes (Fundoo.Api)' 
+2026-08-24 22:29:05.8859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/api/Notes/all - 200 - application/json;+charset=utf-8 5.0018ms 
+2026-08-24 22:29:31.8911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/create - application/json 150 
+2026-08-24 22:29:31.8911|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:29:31.8911|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.CreateNote (Fundoo.Api)' 
+2026-08-24 22:29:31.8911|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "CreateNote", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateNote(FundooNotes.Models.DTOs.CreateNoteDto) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:29:31.8911|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 20), @p2='?' (DbType = DateTime2), @p3='?' (Size = 500), @p4='?' (DbType = DateTime2), @p5='?' (Size = 200), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime2), @p8='?' (Size = 100), @p9='?' (DbType = Boolean), @p10='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Notes] ([Archive], [Backgroundcolor], [Created], [Description], [Edited], [Image], [Pin], [Reminder], [Title], [Trash], [UserId])
+OUTPUT INSERTED.[NoteId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10); 
+2026-08-24 22:29:31.9036|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[FundooNotes.Models.NotesEntity, FundooNotes.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:29:31.9036|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.CreateNote (Fundoo.Api) in 12.1745ms 
+2026-08-24 22:29:31.9036|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.CreateNote (Fundoo.Api)' 
+2026-08-24 22:29:31.9036|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/create - 200 - application/json;+charset=utf-8 14.2297ms 
+2026-08-24 22:31:35.0745|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 22:31:35.1054|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Starting RabbitMQ Reminder Consumer on queue 'fundoo_reminder_queue' at localhost:5672... 
+2026-08-24 22:31:35.1331|INFO|Fundoo.Api.BackgroundServices.ReminderSchedulerService|Reminder Scheduler Background Service is active. 
+2026-08-24 22:31:35.2808|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|RabbitMQ Reminder Consumer successfully connected and listening to 'fundoo_reminder_queue' 
+2026-08-24 22:31:36.1022|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 22:31:36.1030|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 22:31:36.1030|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 22:31:36.1030|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api 
+2026-08-24 22:31:36.2220|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (40ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:31:51.2664|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:32:06.3252|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:32:21.3328|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:32:36.3417|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:32:36.7413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5198/api/Notes/reminder/2 - application/json 40 
+2026-08-24 22:32:36.7779|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2026-08-24 22:32:36.7779|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:32:36.8392|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api)' 
+2026-08-24 22:32:36.8552|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SetReminder", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SetReminder(Int64, FundooNotes.Models.DTOs.ReminderDto) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:32:36.8922|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:32:37.0062|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Notes] SET [Edited] = @p0, [Reminder] = @p1
+OUTPUT 1
+WHERE [NoteId] = @p2; 
+2026-08-24 22:32:37.0412|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:32:37.0596|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:32:37.0864|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:32:37.0922|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T17:05:00Z"} 
+2026-08-24 22:32:37.1189|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:32:37.1189|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api) in 274.0929ms 
+2026-08-24 22:32:37.1189|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api)' 
+2026-08-24 22:32:37.1405|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5198/api/Notes/reminder/2 - 200 - application/json;+charset=utf-8 399.6256ms 
+2026-08-24 22:32:39.2311|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:32:51.3450|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:32:57.1173|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:5198/api/Notes/reminder/2 - application/json 39 
+2026-08-24 22:32:57.1203|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:32:57.1203|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api)' 
+2026-08-24 22:32:57.1203|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SetReminder", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SetReminder(Int64, FundooNotes.Models.DTOs.ReminderDto) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:32:57.1203|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:32:57.1203|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Notes] SET [Edited] = @p0, [Reminder] = @p1
+OUTPUT 1
+WHERE [NoteId] = @p2; 
+2026-08-24 22:32:57.1366|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:32:57.1366|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:32:57.1366|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:32:57.1366|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T22:35:00"} 
+2026-08-24 22:32:57.1366|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:32:57.1366|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api) in 25.6898ms 
+2026-08-24 22:32:57.1366|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SetReminder (Fundoo.Api)' 
+2026-08-24 22:32:57.1505|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:5198/api/Notes/reminder/2 - 200 - application/json;+charset=utf-8 33.1584ms 
+2026-08-24 22:32:59.1272|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:33:06.3514|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:33:21.3589|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:33:36.3708|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:33:51.3842|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:34:06.3866|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:34:21.3945|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:34:36.4042|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:34:51.4137|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:35:06.4272|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:35:21.4349|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:35:36.4439|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:35:51.4482|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:36:06.4559|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:36:21.4692|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:36:36.4805|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:36:51.4834|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:37:06.4940|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:37:07.3575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - - 0 
+2026-08-24 22:37:07.3575|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:37:07.3699|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:37:07.3699|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SendReminderNotification", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendReminderNotification(Int64) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:37:07.3699|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:37:07.3699|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:37:07.3919|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:37:07.3919|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T22:35:00"} 
+2026-08-24 22:37:07.3919|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:37:07.3919|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api) in 21.8134ms 
+2026-08-24 22:37:07.3919|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:37:07.3998|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - 200 - application/json;+charset=utf-8 42.3029ms 
+2026-08-24 22:37:09.2990|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:37:17.6559|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/api/Notes/reminders - - - 
+2026-08-24 22:37:17.6559|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.GetReminderNotes (Fundoo.Api)' 
+2026-08-24 22:37:17.6664|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetReminderNotes", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetReminderNotes() on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:37:17.6939|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[UserId] = @__userId_0 AND [n].[Reminder] IS NOT NULL AND [n].[Trash] = CAST(0 AS bit)
+ORDER BY [n].[Reminder] 
+2026-08-24 22:37:17.6939|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[FundooNotes.Models.NotesEntity, FundooNotes.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:37:17.7080|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.GetReminderNotes (Fundoo.Api) in 41.4394ms 
+2026-08-24 22:37:17.7080|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.GetReminderNotes (Fundoo.Api)' 
+2026-08-24 22:37:17.7080|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/api/Notes/reminders - 200 - application/json;+charset=utf-8 52.3122ms 
+2026-08-24 22:37:21.4982|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:37:36.5107|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:37:51.5167|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:38:06.5251|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:38:21.5429|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:38:36.5453|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:38:51.5548|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:38:59.9750|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/index.html - - - 
+2026-08-24 22:39:00.0183|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/index.html - 200 - text/html;charset=utf-8 43.3788ms 
+2026-08-24 22:39:00.1127|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - - - 
+2026-08-24 22:39:00.1818|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 69.0533ms 
+2026-08-24 22:39:06.5730|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:39:21.5771|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:39:22.1357|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/login - application/json 71 
+2026-08-24 22:39:22.1357|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:39:22.1357|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:39:22.1357|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FundooNotes.Models.DTOs.UserLoginDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:39:22.1556|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:39:22.1556|INFO|Fundoo.Api.Controllers.UserController|User logged in: 01pratapgavendra@gmail.com 
+2026-08-24 22:39:22.1556|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:39:22.1682|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Login (Fundoo.Api) in 27.3487ms 
+2026-08-24 22:39:22.1682|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:39:22.1682|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/login - 200 - application/json;+charset=utf-8 32.6672ms 
+2026-08-24 22:39:36.5820|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:39:45.7679|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - - 0 
+2026-08-24 22:39:45.7679|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:39:45.7679|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:39:45.7679|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SendReminderNotification", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendReminderNotification(Int64) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:39:45.7679|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:39:45.7679|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:39:45.7819|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:39:45.7819|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T22:35:00"} 
+2026-08-24 22:39:45.7819|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:39:45.7819|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api) in 15.351ms 
+2026-08-24 22:39:45.7819|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:39:45.7819|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - 200 - application/json;+charset=utf-8 16.5475ms 
+2026-08-24 22:39:47.7040|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:39:51.5979|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:40:06.6085|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:40:21.6359|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:40:36.6562|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:40:51.6613|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:41:06.6721|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:41:21.6772|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:41:36.6859|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:41:51.6958|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:42:06.7113|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:42:21.7189|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:42:36.7254|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:42:51.7285|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:43:25.6436|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 22:43:25.6772|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Starting RabbitMQ Reminder Consumer on queue 'fundoo_reminder_queue' at localhost:5672... 
+2026-08-24 22:43:25.7018|INFO|Fundoo.Api.BackgroundServices.ReminderSchedulerService|Reminder Scheduler Background Service is active. 
+2026-08-24 22:43:25.8130|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|RabbitMQ Reminder Consumer successfully connected and listening to 'fundoo_reminder_queue' 
+2026-08-24 22:43:26.5752|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 22:43:26.5752|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 22:43:26.5752|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 22:43:26.5752|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api 
+2026-08-24 22:43:26.6781|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:43:41.7246|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:43:56.7885|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:44:02.6177|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/index.html - - - 
+2026-08-24 22:44:02.6911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/index.html - 200 - text/html;charset=utf-8 73.7696ms 
+2026-08-24 22:44:02.7794|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - - - 
+2026-08-24 22:44:02.8570|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 77.5100ms 
+2026-08-24 22:44:11.7968|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:44:25.8918|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/login - application/json 70 
+2026-08-24 22:44:25.8918|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2026-08-24 22:44:25.8918|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:44:25.9260|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:44:25.9464|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FundooNotes.Models.DTOs.UserLoginDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:44:25.9849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:44:25.9849|WARN|Fundoo.Api.Controllers.UserController|Failed login attempt for 01pratapgavendra@gmailcom 
+2026-08-24 22:44:25.9849|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:44:26.0020|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Login (Fundoo.Api) in 50.9306ms 
+2026-08-24 22:44:26.0020|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:44:26.0122|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/login - 401 - application/json;+charset=utf-8 120.3213ms 
+2026-08-24 22:44:26.8052|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:44:37.1112|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/login - application/json 71 
+2026-08-24 22:44:37.1112|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:44:37.1112|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:44:37.1112|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FundooNotes.Models.DTOs.UserLoginDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:44:37.1195|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:44:37.1806|INFO|Fundoo.Api.Controllers.UserController|User logged in: 01pratapgavendra@gmail.com 
+2026-08-24 22:44:37.1815|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:44:37.1815|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Login (Fundoo.Api) in 70.0588ms 
+2026-08-24 22:44:37.1815|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:44:37.1815|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/login - 200 - application/json;+charset=utf-8 75.7675ms 
+2026-08-24 22:44:41.8080|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:44:51.1787|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - - 0 
+2026-08-24 22:44:51.1787|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:44:51.2245|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:44:51.2245|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SendReminderNotification", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendReminderNotification(Int64) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:44:51.2408|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:44:51.2967|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:44:51.3204|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:44:51.3258|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T22:35:00"} 
+2026-08-24 22:44:51.3442|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:44:51.3442|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api) in 116.6092ms 
+2026-08-24 22:44:51.3442|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:44:51.3442|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - 200 - application/json;+charset=utf-8 165.9545ms 
+2026-08-24 22:44:53.6435|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:44:56.8163|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:45:11.8316|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:45:26.8411|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:45:41.8494|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:45:56.8598|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:46:11.8722|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:46:26.8787|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:46:41.8853|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:46:56.9056|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:47:11.9168|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:47:26.9302|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:47:41.9360|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:47:56.9524|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:48:11.9560|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:48:26.9611|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:48:41.9710|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:48:56.9785|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:49:11.9814|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:49:26.9913|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:49:42.0001|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:49:57.0145|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:50:38.5016|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 22:50:38.5306|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Starting RabbitMQ Reminder Consumer on queue 'fundoo_reminder_queue' at localhost:5672... 
+2026-08-24 22:50:38.5537|INFO|Fundoo.Api.BackgroundServices.ReminderSchedulerService|Reminder Scheduler Background Service is active. 
+2026-08-24 22:50:38.6172|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|RabbitMQ Reminder Consumer successfully connected and listening to 'fundoo_reminder_queue' 
+2026-08-24 22:50:39.3792|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 22:50:39.3792|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 22:50:39.3792|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 22:50:39.3792|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api 
+2026-08-24 22:50:39.4859|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:50:54.5354|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:51:09.5920|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:51:24.6074|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:51:35.6372|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 22:51:35.6652|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Starting RabbitMQ Reminder Consumer on queue 'fundoo_reminder_queue' at localhost:5672... 
+2026-08-24 22:51:35.6868|INFO|Fundoo.Api.BackgroundServices.ReminderSchedulerService|Reminder Scheduler Background Service is active. 
+2026-08-24 22:51:35.7531|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|RabbitMQ Reminder Consumer successfully connected and listening to 'fundoo_reminder_queue' 
+2026-08-24 22:51:36.3725|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 22:51:36.3725|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 22:51:36.3725|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 22:51:36.3725|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api 
+2026-08-24 22:51:36.4742|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:51:45.4424|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/index.html - - - 
+2026-08-24 22:51:45.5277|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/index.html - 200 - text/html;charset=utf-8 85.9589ms 
+2026-08-24 22:51:45.5992|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - - - 
+2026-08-24 22:51:45.6804|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5198/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 81.1242ms 
+2026-08-24 22:51:51.5248|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:52:05.7820|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/User/login - application/json 71 
+2026-08-24 22:52:05.7820|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2026-08-24 22:52:05.7820|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:52:05.8147|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:52:05.8347|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FundooNotes.Models.DTOs.UserLoginDto) on controller Fundoo.Api.Controllers.UserController (Fundoo.Api). 
+2026-08-24 22:52:05.9194|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 
+2026-08-24 22:52:05.9713|INFO|Fundoo.Api.Controllers.UserController|User logged in: 01pratapgavendra@gmail.com 
+2026-08-24 22:52:05.9713|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Fundoo.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-08-24 22:52:05.9886|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.UserController.Login (Fundoo.Api) in 149.6803ms 
+2026-08-24 22:52:05.9886|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.UserController.Login (Fundoo.Api)' 
+2026-08-24 22:52:05.9886|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/User/login - 200 - application/json;+charset=utf-8 211.0204ms 
+2026-08-24 22:52:06.5357|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:52:19.7809|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - - 0 
+2026-08-24 22:52:19.7809|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2026-08-24 22:52:19.8213|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:52:19.8251|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SendReminderNotification", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendReminderNotification(Int64) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:52:19.8251|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:52:19.8827|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:52:19.9090|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:52:19.9090|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T22:35:00"} 
+2026-08-24 22:52:19.9348|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:52:19.9348|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api) in 111.9284ms 
+2026-08-24 22:52:19.9348|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:52:19.9348|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - 200 - application/json;+charset=utf-8 156.8097ms 
+2026-08-24 22:52:21.5494|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:52:22.3379|ERROR|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Error processing reminder message from RabbitMQ System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.EndSend(IAsyncResult result)
+   at System.Net.Mail.SendMailAsyncResult.SendMailFromCompleted(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at FundooNotes.Service.Services.EmailService.SendEmailAsync(String toEmail, String subject, String body, Boolean isHtml) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 47
+   at FundooNotes.Service.Services.EmailService.SendReminderEmailAsync(String toEmail, String noteTitle, String noteDescription, DateTime reminderTime) in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Service\Services\EmailService.cs:line 92
+   at Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer.<>c__DisplayClass4_0.<<ExecuteAsync>b__0>d.MoveNext() in C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api\BackgroundServices\RabbitMqReminderConsumer.cs:line 87
+2026-08-24 22:52:36.5641|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:52:51.5805|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:53:06.5840|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:53:21.5918|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:53:36.6077|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:53:51.6112|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:54:06.6178|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:54:21.6253|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:54:36.6410|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:54:51.6462|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:55:06.6529|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:55:16.1109|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2026-08-24 22:55:16.1439|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Starting RabbitMQ Reminder Consumer on queue 'fundoo_reminder_queue' at localhost:5672... 
+2026-08-24 22:55:16.1662|INFO|Fundoo.Api.BackgroundServices.ReminderSchedulerService|Reminder Scheduler Background Service is active. 
+2026-08-24 22:55:16.2422|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|RabbitMQ Reminder Consumer successfully connected and listening to 'fundoo_reminder_queue' 
+2026-08-24 22:55:17.0242|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5198 
+2026-08-24 22:55:17.0247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2026-08-24 22:55:17.0247|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2026-08-24 22:55:17.0247|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\ASUS\OneDrive\Desktop\FundooNotes\Fundoo.Api 
+2026-08-24 22:55:17.1268|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:55:32.1787|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:55:34.2779|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - - - 
+2026-08-24 22:55:34.3199|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2026-08-24 22:55:34.4185|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:55:34.4365|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SendReminderNotification", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendReminderNotification(Int64) on controller Fundoo.Api.Controllers.NotesController (Fundoo.Api). 
+2026-08-24 22:55:34.5059|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__noteId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[NoteId] = @__noteId_0 AND [n].[UserId] = @__userId_1 
+2026-08-24 22:55:34.5818|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[PasswordSalt], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__p_0 
+2026-08-24 22:55:34.6344|INFO|FundooNotes.Service.Services.RabbitMqProducer|Successfully published reminder message for NoteId 2 to RabbitMQ queue 'fundoo_reminder_queue' 
+2026-08-24 22:55:34.6397|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Received reminder message from RabbitMQ: {"NoteId":2,"UserId":3,"UserEmail":"01pratapgavendra@gmail.com","Title":"RabbitMQ Demo Note","Description":"Testing SMTP reminder emails via RabbitMQ queue","ReminderTime":"2026-08-24T22:35:00"} 
+2026-08-24 22:55:34.6703|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2026-08-24 22:55:34.6938|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api) in 252.6399ms 
+2026-08-24 22:55:34.6938|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Fundoo.Api.Controllers.NotesController.SendReminderNotification (Fundoo.Api)' 
+2026-08-24 22:55:34.7031|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5198/api/Notes/reminder/2/send-now - 200 - application/json;+charset=utf-8 426.4855ms 
+2026-08-24 22:55:38.4402|INFO|Fundoo.Api.BackgroundServices.RabbitMqReminderConsumer|Successfully sent reminder email to 01pratapgavendra@gmail.com for NoteId 2 
+2026-08-24 22:55:47.1894|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 
+2026-08-24 22:56:02.1976|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NoteId], [n].[Archive], [n].[Backgroundcolor], [n].[Created], [n].[Description], [n].[Edited], [n].[Image], [n].[Pin], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [Notes] AS [n]
+WHERE [n].[Reminder] IS NOT NULL AND [n].[Reminder] <= @__now_0 AND [n].[Trash] = CAST(0 AS bit) 

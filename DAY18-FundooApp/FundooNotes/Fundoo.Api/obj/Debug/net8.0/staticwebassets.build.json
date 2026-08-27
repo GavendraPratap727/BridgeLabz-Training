@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zK5FpTG9av4NSOecgLP29YU5dRgIjCH7wbfzXUwKvkg=",
+  "Source": "Fundoo.Api",
+  "BasePath": "_content/Fundoo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

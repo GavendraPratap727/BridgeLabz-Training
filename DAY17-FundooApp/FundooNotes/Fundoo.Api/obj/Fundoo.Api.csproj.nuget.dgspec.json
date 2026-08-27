@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj": {}
+    "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj": {
+    "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj",
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj",
         "projectName": "Fundoo.Api",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\Fundoo.Api\\Fundoo.Api.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\Fundoo.Api\\obj\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\Fundoo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
+              "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
               },
-              "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj"
+              "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj"
               },
-              "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj"
+              "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+    "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj",
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj",
         "projectName": "FundooNotes.Models",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\obj\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
+    "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj",
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj",
         "projectName": "FundooNotes.Repository",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\obj\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -185,8 +185,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
+              "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
               }
             }
           }
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj": {
+    "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj",
+        "projectUniqueName": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj",
         "projectName": "FundooNotes.Service",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj",
+        "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Service\\FundooNotes.Service.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Service\\obj\\",
+        "outputPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -257,11 +257,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
+              "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Models\\FundooNotes.Models.csproj"
               },
-              "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj"
+              "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj": {
+                "projectPath": "E:\\BridgeLabz-Training\\DAY17-FundooApp\\FundooNotes\\FundooNotes.Repository\\FundooNotes.Repository.csproj"
               }
             }
           }

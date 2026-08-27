@@ -68,3 +68,15 @@ C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\F
 C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\refint\FundooNotes.Models.dll
 C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.pdb
 C:\Users\ASUS\OneDrive\Desktop\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\ref\FundooNotes.Models.dll
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\bin\Debug\net8.0\FundooNotes.Models.deps.json
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\bin\Debug\net8.0\FundooNotes.Models.dll
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\bin\Debug\net8.0\FundooNotes.Models.pdb
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.AssemblyInfoInputs.cache
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.AssemblyInfo.cs
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.csproj.CoreCompileInputs.cache
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.sourcelink.json
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.dll
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\refint\FundooNotes.Models.dll
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\FundooNotes.Models.pdb
+E:\BridgeLabz-Training\DAY17-FundooApp\FundooNotes\FundooNotes.Models\obj\Debug\net8.0\ref\FundooNotes.Models.dll
